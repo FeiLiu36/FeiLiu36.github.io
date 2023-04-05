@@ -5,8 +5,8 @@
       value: Fei Liu
     - name: Date of Birth
       value: 21th Oct. 1995
-    - name: Languages
-      value: Chinese, English
+    - name: Email
+      value: fliu36-c@my.cityu.edu.hk
 
 - title: Education
   type: time_table
