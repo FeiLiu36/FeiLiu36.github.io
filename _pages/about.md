@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>PhD student</a>. CS, CityU, Kowloon, Hong Kong
+Email: fliu36-c@my.cityu.edu.hk
 
 profile:
   align: right
