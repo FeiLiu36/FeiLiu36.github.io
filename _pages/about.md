@@ -22,6 +22,6 @@ Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www
 
 I am interested in artificial intelligence, optimization algorithm and their applications on real-world problems.
 
-+ you can found my CV in this [link](https://feiliu36.github.io/cv/)
++ You can found my CV in this [link](https://feiliu36.github.io/cv/)
 + For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46)
 
