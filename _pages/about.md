@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Email fliu36-c@my.cityu.edu.hk
 

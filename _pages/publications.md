@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: publications listed according to data, they can also be found on Google Scholar
 years: [2019, 2020, 2021, 2022, 2023]
 nav: true
