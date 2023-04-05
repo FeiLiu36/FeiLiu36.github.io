@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-Hello, I am Fei Liu, currently a PhD student under the supervise of [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm), Department of Computer Science, City University of Hong Kong. 
+Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm), Department of Computer Science, City University of Hong Kong. 
 
 I am interested in artificial intelligence, optimization algorithm and their applications on real-world problems.
 
