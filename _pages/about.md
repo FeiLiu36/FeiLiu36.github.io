@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, my name is Liu.
+Hello, I am Fei Liu, currently a PhD student in City University of Hong Kong under the supervise of [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm).
 
-Hi, this is ready.!! OPEN!!!
+I am interested in a combination of artificial intelligence and optimization algorithm and their application in real-world problems.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
