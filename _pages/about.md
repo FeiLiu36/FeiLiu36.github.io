@@ -18,7 +18,7 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm), Department of Computer Science, City University of Hong Kong. 
+Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm), Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/). 
 
 Before joining CityU, I completed my master's and bachelor's degrees at Northwestern Polytechnical University.
 
