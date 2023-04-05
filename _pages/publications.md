@@ -2,12 +2,13 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications listed according to data, they can also be found on Google Scholar
+description: //
 years: [2019, 2020, 2021, 2022, 2023]
 nav: true
 nav_order: 3
 ---
 <!-- _pages/publications.md -->
+
 <div class="publications">
 
 {%- for y in page.years %}
