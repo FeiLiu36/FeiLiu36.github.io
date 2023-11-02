@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Email fliu36-c@my.cityu.edu.hk
+subtitle: Email: fliu36-c@my.cityu.edu.hk, Wechat: ltwbtf
 
 
 profile:
