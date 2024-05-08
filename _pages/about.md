@@ -29,8 +29,8 @@ I am currently interested in artificial intelligence, optimization algorithm and
 
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model" has been accepted at ICML 2024. 
-- *2024.04*: &nbsp;🎉🎉 "Prompt Learning for Generalized Vehicle Routing" has been accepted at IJCAI 2024.
+- *2024.05*: &nbsp;🎉🎉 "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model" has been accepted at **ICML 2024**. 
+- *2024.04*: &nbsp;🎉🎉 "Prompt Learning for Generalized Vehicle Routing" has been accepted at **IJCAI 2024**.
 
 # 📝 Publications 
 
