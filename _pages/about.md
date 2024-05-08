@@ -24,7 +24,8 @@ Before joining CityU, I completed my master's and bachelor's degrees at Northwes
 I am currently interested in artificial intelligence, optimization algorithm and their applications on real-world problems.
 
 + You can found my CV in this [link](https://feiliu36.github.io/cv/)
-+ For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](
++ For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46)
+
 
 
 # 🔥 News
@@ -40,12 +41,13 @@ I am currently interested in artificial intelligence, optimization algorithm and
 
 **Fei Liu**, Xialiang Tong, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang, Zhichao Lu, Qingfu Zhang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- xxx 
+
+[**Project**]
+- [**EoH**: Evolution of Heuristics, A Platform for Automatic Algorithm Design Using LLM](https://github.com/FeiLiu36/EoH)
+- [**LLM4Opt**: A Collection of LLM for Optimization](https://github.com/FeiLiu36/LLM4Opt)
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2021.03* Gold Award, EMO 2021 HUAWEI Logistic Competition
@@ -60,7 +62,7 @@ I am currently interested in artificial intelligence, optimization algorithm and
 
 # 💻 Visiting Experiences
 - *2024.03 - (now)*, Visiting Scholar, SusTech, China
-- *2016.1 - 2016.7* Visiting Student, UPM, Spain
+- *2016.1 - 2016.7*, Visiting Student, UPM, Spain
 
 # 💬 Invited Talks
 - 
