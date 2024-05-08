@@ -55,7 +55,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2023</div><img src='images/3lmsdvrp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Machine Learning Assisted Multiobjective Evolutionary Algorithm for Routing and Packing] (https://ieeexplore.ieee.org/abstract/document/10423590)
+[Machine Learning Assisted Multiobjective Evolutionary Algorithm for Routing and Packing](https://ieeexplore.ieee.org/abstract/document/10423590)
 
 **Fei Liu**; Qingfu Zhang; Qingling Zhu; Xialiang Tong; Mingxuan Yuan
 </div>
