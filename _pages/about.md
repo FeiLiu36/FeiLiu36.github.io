@@ -40,7 +40,8 @@ I am currently interested in artificial intelligence, optimization algorithm and
 [Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model](https://arxiv.org/abs/2401.02051)
 
 **Fei Liu**, Xialiang Tong, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang, Zhichao Lu, Qingfu Zhang
-
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2024</div><img src='images/promptvrp.jpg' alt="sym" width="100%"></div></div>
@@ -49,7 +50,8 @@ I am currently interested in artificial intelligence, optimization algorithm and
 [Prompt Learning for Generalized Vehicle Routing] (coming soon)
 
 **Fei Liu**, Xi Lin, Zhenkun Wang, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan
-
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2023</div><img src='images/3lmsdvrp.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -57,13 +59,13 @@ I am currently interested in artificial intelligence, optimization algorithm and
 [Machine Learning Assisted Multiobjective Evolutionary Algorithm for Routing and Packing] (https://ieeexplore.ieee.org/abstract/document/10423590)
 
 **Fei Liu**; Qingfu Zhang; Qingling Zhu; Xialiang Tong; Mingxuan Yuan
+</div>
+</div>
 
-
-[**Project**]
+** [ Project ] **
 - [**EoH**: Evolution of Heuristics, A Platform for Automatic Algorithm Design Using LLM](https://github.com/FeiLiu36/EoH)
 - [**LLM4Opt**: A Collection of LLM for Optimization](https://github.com/FeiLiu36/LLM4Opt)
-</div>
-</div>
+
 
 
 # 🎖 Honors and Awards
