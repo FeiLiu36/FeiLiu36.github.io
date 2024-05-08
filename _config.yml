@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Fei Liu"
-  avatar           : "images/fei.png"
+  avatar           : "images/fei.jpg"
   bio              : "CityU"
   location         : "Hong Kong"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/FeiLiu36"
+  github           : "FeiLiu36"
   google_plus      :
   keybase          :
   instagram        :
