@@ -21,11 +21,10 @@ Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www
 
 Before joining CityU, I completed my master's and bachelor's degrees at Northwestern Polytechnical University.
 
-I am currently interested in artificial intelligence, optimization algorithm and their applications on real-world problems.
+I am currently interested in automatic algorithm design, artificial intelligence, optimization algorithm and their applications on real-world problems.
 
 + You can found my CV in this [link](https://feiliu36.github.io/cv/)
-+ For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46)
-
++ For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46), and [Github](https://github.com/FeiLiu36)
 
 
 # 🔥 News
