@@ -61,7 +61,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 </div>
 </div>
 
-** [ Project ] **
+# 💻 Projects
 - [**EoH**: Evolution of Heuristics, A Platform for Automatic Algorithm Design Using LLM](https://github.com/FeiLiu36/EoH)
 - [**LLM4Opt**: A Collection of LLM for Optimization](https://github.com/FeiLiu36/LLM4Opt)
 
