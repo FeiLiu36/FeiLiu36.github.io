@@ -19,7 +19,7 @@ redirect_from:
 
 Hello, I am Fei Liu, a PhD student supervised by [Prof. Qingfu Zhang](http://www.cityu.edu.hk/stfprofile/qingfu.zhang.htm), Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/). 
 
-Before joining CityU, I completed my master's and bachelor's degrees at Northwestern Polytechnical University.
+Before joining CityU, I completed my master's and bachelor's degrees at Northwestern Polytechnical University supervised by [Prof. Zhonghua Han](https://teacher.nwpu.edu.cn/zhonghuahan.html).
 
 I am currently interested in automatic algorithm design, artificial intelligence, optimization algorithm and their applications on real-world problems.
 
