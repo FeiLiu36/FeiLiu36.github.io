@@ -23,7 +23,7 @@ Before joining CityU, I completed my master's and bachelor's degrees at Northwes
 
 I am currently interested in automatic algorithm design, artificial intelligence, optimization algorithm and their applications on real-world problems.
 
-+ You can found my CV in this [link](https://feiliu36.github.io/docs/CV_FeiLiu.pdf)
++ You can found my CV in this [link](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/CV_FeiLiu.pdf)
 + For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46), and [Github](https://github.com/FeiLiu36)
 
 
@@ -88,18 +88,18 @@ I am currently interested in automatic algorithm design, artificial intelligence
 # 📝 Paper List
 Paper
 1. **Fei Liu**, Xialiang Tong, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang.
-  Evolution of heuristics: towards efficient automatic algorithm design using large language model. **ICML (Oral)**, 2024
+    Evolution of heuristics: towards efficient automatic algorithm design using large language model. **ICML (Oral)**, 2024
 2. **Fei Liu**, Xi Lin, Weiduo Liao, Zhenkun Wang, Qingfu Zhang, Xialiang Tong, and Mingxuan Yuan. Prompt
-  learning for generalized vehicle routing. **IJCAI**, 2024
+    learning for generalized vehicle routing. **IJCAI**, 2024
 3. **Fei Liu**, Xi Lin, Qingfu Zhang, Xialiang Tong, and Mingxuan Yuan. Multi-task learning for routing problem with cross-problem zero-shot generalization. **SIGKDD**, 2024
 4. **Fei Liu**, Qingfu Zhang, Qingling Zhu, Xialiang Tong, and Mingxuan Yuan. Machine learning assisted multiobjective evolutionary algorithm for routing and packing. IEEE Transactions on Evolutionary Computation, 2024
 5. **Fei Liu**, Xialiang Tong, Mingxuan Yuan, and Qingfu Zhang. Algorithm evolution using large language model. arXiv preprint arXiv:2311.15249, 2023
 6. **Fei Liu**, Xi Lin, Zhenkun Wang, Shunyu Yao, Xialiang Tong, Mingxuan Yuan, and Qingfu Zhang. Large
-  language model for multi-objective evolutionary optimization. arXiv preprint arXiv:2310.12541, 2023
+    language model for multi-objective evolutionary optimization. arXiv preprint arXiv:2310.12541, 2023
 7. **Fei Liu**, Chengyu Lu, Lin Gui, Qingfu Zhang, Xialiang Tong, and Mingxuan Yuan. Heuristics for vehicle
-  routing problem: A survey and recent advances. arXiv preprint arXiv:2303.04147, 2023
+    routing problem: A survey and recent advances. arXiv preprint arXiv:2303.04147, 2023
 8. **Fei Liu** and Qingfu Zhang. A two-stage algorithm for integer multiobjective simulation optimization. In
-  International Conference on Evolutionary Multi-Criterion Optimization, pages 17–28. Springer, 2023
+    International Conference on Evolutionary Multi-Criterion Optimization, pages 17–28. Springer, 2023
 9. **Fei Liu**, Qingfu Zhang, and Zhonghua Han. Moea/d with gradient-enhanced kriging for expensive multiobjective optimization. Natural Computing, 22(2):329–339, 2023
 10. **Fei Liu**, Zhong-Hua Han, Yang Zhang, Ke Song, Wen-Ping Song, Feng Gui, and Ji-Bin Tang. Surrogatebased aerodynamic shape optimization of hypersonic flows considering transonic performance. Aerospace Science and Technology, 93:105345, 2019
 11. **Fei Liu**, Xi Lin, Zhenkun Wang, Qingfu Zhang, Tong Xialiang, and Mingxuan Yuan. Multi-task learning
