@@ -28,7 +28,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 🔥 News
-- *2024.08*: [IEEE HK CI Postgraduate Student Research Paper Competition CHAMPION](images/ieeeicpostgraduate.jpg)
+- *2024.08*: &nbsp;🎉🎉 [IEEE HK CI Postgraduate Student Research Paper Competition **CHAMPION**](images/ieeeicpostgraduate.jpg)!
 - *2024.05*: &nbsp;🎉🎉 "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model" has been accepted at **ICML 2024 (Oral) 1.5% accept rate**. 
 - *2024.05*: &nbsp;🎉🎉 "Multi-task Learning for Routing Problem
   with Cross-problem Zero-shot Generalization" has been accepted at **KDD 2024**. 
