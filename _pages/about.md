@@ -28,7 +28,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 🔥 News
-- *2024.10*: Survey Paper ["A Systematic Survey on Large Language Models for Algorithm Design"](https://arxiv.org/pdf/2410.14716) is online ! 🎉
+- *2024.10*: &nbsp;🎉🎉 Survey Paper ["A Systematic Survey on Large Language Models for Algorithm Design"](https://arxiv.org/pdf/2410.14716) is online ! 
 - *2024.09*: &nbsp;🎉🎉 "Evolve Cost-aware Acquisition Functions Using Large Language Models" has been nominated as **PPSN 2024 Best Paper Candidate**!
 - *2024.08*: &nbsp;🎉🎉 IEEE HK CI Postgraduate Student Research Paper Competition [**CHAMPION**](images/ieeeicpostgraduate.jpg)!
 - *2024.05*: &nbsp;🎉🎉 ["Evolution of Heuristics: Towards Efficient Automatic Algorithm Design using Large Language Model"](https://openreview.net/pdf?id=BwAkaxqiLB) has been accepted at **ICML 2024 (Oral) 1.5% accept rate**. 
