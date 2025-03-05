@@ -87,7 +87,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 - *2013.09 - 2017.07*, Undergraduate, Northwestern Polytechnical University
 
 # 💻 Visiting Experiences
-- *2024.03 - (now)*, Visiting Scholar, SusTech, China
+- *2024.03*, Visiting Scholar, SusTech, China
 - *2016.1 - 2016.7*, Visiting Student, UPM, Spain
 
 
