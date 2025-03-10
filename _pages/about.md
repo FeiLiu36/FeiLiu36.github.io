@@ -28,7 +28,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 🔥 News
-- *20245.01*: &nbsp;🎉🎉 [Platform LLM4AD](https://github.com/Optima-CityU/llm4ad) has received IEEE FLAME Second Price! 
+- *2025.01*: &nbsp;🎉🎉 [Platform LLM4AD](https://github.com/Optima-CityU/llm4ad) has received **IEEE FLAME Second Price (Only One)**! 
 - *2024.12*: &nbsp;🎉🎉 Paper ["LLM4AD: A Platform for Algorithm Design with Large Language Model"](https://arxiv.org/pdf/2410.14716) is online ! 
 - *2024.10*: &nbsp;🎉🎉 Survey Paper ["A Systematic Survey on Large Language Models for Algorithm Design"](https://arxiv.org/pdf/2410.14716) is online ! 
 - *2024.09*: &nbsp;🎉🎉 "Evolve Cost-aware Acquisition Functions Using Large Language Models" has been nominated as **PPSN 2024 Best Paper Candidate**!
