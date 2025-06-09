@@ -28,7 +28,8 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 🔥 News
-- *2025.03: &nbsp;🎉🎉 We had the opportunity to present a **Tutorial on Algorithm Design with Large Language Models** at [EMO 2025](https://emo2025.org/)! The tutorial slides are available [here](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/LLM4AD_EMO_Tutorial.pdf).! 
+- *2025.06*: &nbsp;🎉🎉 We had the opportunity to present a **Tutorial on Automated Algorithm Design with Large Language Models** at [CEC 2025](https://www.cec2025.org/)! The tutorial slides are available [here](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/LLM4AD_CEC_Tutorial.pdf).! 
+- *2025.03*: &nbsp;🎉🎉 We had the opportunity to present a **Tutorial on Algorithm Design with Large Language Models** at [EMO 2025](https://emo2025.org/)! The tutorial slides are available [here](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/LLM4AD_EMO_Tutorial.pdf).! 
 - *2025.01*: &nbsp;🎉🎉 [Platform LLM4AD](https://github.com/Optima-CityU/llm4ad) has received **IEEE FLAME Second Price (Only One)**! 
 - *2024.12*: &nbsp;🎉🎉 Paper ["LLM4AD: A Platform for Algorithm Design with Large Language Model"](https://arxiv.org/pdf/2410.14716) is online ! 
 - *2024.10*: &nbsp;🎉🎉 Survey Paper ["A Systematic Survey on Large Language Models for Algorithm Design"](https://arxiv.org/pdf/2410.14716) is online ! 
@@ -90,6 +91,12 @@ I am currently interested in automatic algorithm design, artificial intelligence
 # 💻 Visiting Experiences
 - *2024.03*, Visiting Scholar, SusTech, China
 - *2016.1 - 2016.7*, Visiting Student, UPM, Spain
+
+# :sound: Talks
+
+- *2025.05*, 基于大模型的自动算法设计 Automated Algorithm Design with Large Language Model, NICE Seminal, [视频Video (Chinese)](https://www.bilibili.com/video/BV1XTJVz9Ew1)
+
+  
 
 
 # 📝 Paper List
