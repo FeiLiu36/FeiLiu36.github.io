@@ -28,6 +28,7 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 🔥 News
+- *2025.10*: &nbsp;🎉🎉 I had the opportunity to Give a keynote talk on [IJCCI 2025](!https://www.insticc.org/node/TechnicalProgram/ijcci/2025/presentationDetails/1973) !  
 - *2025.06*: &nbsp;🎉🎉 We had the opportunity to present a **Tutorial on Automated Algorithm Design with Large Language Models** at [CEC 2025](https://www.cec2025.org/)! The tutorial slides are available [here](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/LLM4AD_CEC_Tutorial.pdf).! 
 - *2025.03*: &nbsp;🎉🎉 We had the opportunity to present a **Tutorial on Algorithm Design with Large Language Models** at [EMO 2025](https://emo2025.org/)! The tutorial slides are available [here](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/LLM4AD_EMO_Tutorial.pdf).! 
 - *2025.01*: &nbsp;🎉🎉 [Platform LLM4AD](https://github.com/Optima-CityU/llm4ad) has received **IEEE FLAME Second Price (Only One)**! 
