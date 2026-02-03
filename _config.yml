@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Fei Liu"
-description              : "Postdoc at City University of Hong Kong "
+description              : "Postdoc at UZH & ETH"
 repository               : "FeiLiu36/FeiLiu36.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Fei Liu"
   avatar           : "images/fei.jpg"
-  bio              : "CityU"
-  location         : "Hong Kong"
+  bio              : "ETH&UZH"
+  location         : "Zurich"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=wS0G_qQAAAAJ"
