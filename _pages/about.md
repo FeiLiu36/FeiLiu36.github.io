@@ -17,14 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Fei Liu, a Postdoc researcher in [Prof. Qingfu Zhang's Group](http://optima.cs.cityu.edu.hk/), Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/). 
+Hello, I am Fei Liu, a Postdoc researcher in Department of Physics, UZH & Department of Mathematics, ETH Zurich, working with Prof. [Nicola Serra](https://www.physik.uzh.ch/en/groups/serra/team/senior-researchers/Serra.html) and [Prof. Alessio Figalli](https://people.math.ethz.ch/~afigalli/).
+
+I was a Postdoc Fellow in [Prof. Qingfu Zhang's Group](http://optima.cs.cityu.edu.hk/), Department of Computer Science, [City University of Hong Kong](https://www.cityu.edu.hk/). 
 
 I completed my PhD degree at CityU supervised by [Prof. Qingfu Zhang](https://www.cs.cityu.edu.hk/~qzhan7/index.html), my master's and bachelor's degrees at Northwestern Polytechnical University supervised by [Prof. Zhonghua Han](https://teacher.nwpu.edu.cn/zhonghuahan.html).
 
 I am currently interested in automatic algorithm design, artificial intelligence, optimization algorithm and their applications on real-world problems.
 
 + You can found my CV in this [link](https://github.com/FeiLiu36/FeiLiu36.github.io/blob/main/docs/CV_FeiLiu.pdf)
-+ For more information, you can visit my [google scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46), and [Github](https://github.com/FeiLiu36)
++ For more information, you can visit my [Google Scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) , [ResearchGate](https://www.researchgate.net/profile/Fei-Liu-46), and [Github](https://github.com/FeiLiu36)
 
 
 # 🔥 News
@@ -102,7 +104,10 @@ I am currently interested in automatic algorithm design, artificial intelligence
 
 
 # 📝 Paper List
+Visit [Google Scholar](https://scholar.google.com/citations?user=wS0G_qQAAAAJ&hl=en) for full paper list.
+
 Paper
+
 1. **Fei Liu**, Xialiang Tong, Mingxuan Yuan, Xi Lin, Fu Luo, Zhenkun Wang, Zhichao Lu, and Qingfu Zhang.
     Evolution of heuristics: towards efficient automatic algorithm design using large language model. ICML, 2024 (**Oral Top 1.5%**)
 2. **Fei Liu**, Xi Lin, Weiduo Liao, Zhenkun Wang, Qingfu Zhang, Xialiang Tong, and Mingxuan Yuan. Prompt
@@ -137,5 +142,3 @@ Paper
 23. Sun Xiangcheng, Han Zhonghua, and **Fei Liu**. Design and analysis of hypersonic vehicel airfoil/wing at wide-range mach number. Acta Aeronautica et Astronautica Sinica, 39(6):31–42, 2018
 24. Yang Zhang, Zhong-Hua Han, **Fei Liu**, and Chen-Zhou Xu. Aerodynamic design optimization of hypersonic wing over wide mach-number range considering lift matching. In 32nd Congress of the International Council of the Aeronautic Sciences, ICAS Paper, volume 476, page 2021, 2020
 
-Patent
-1. A wide-mach-number-range symmetric airfoil with high lift-curve slope and its design method. Patent: ZL 201811319147.1, 2019
