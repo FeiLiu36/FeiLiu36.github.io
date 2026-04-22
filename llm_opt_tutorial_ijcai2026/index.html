@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LLMs for Optimization · IJCAI 2026 Tutorial</title>
+  <meta name="description" content="IJCAI 2026 Tutorial — LLMs for Optimization: From Automated Modeling to Algorithmic Discovery." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400;1,8..60,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" />
+
+  <link rel="stylesheet" href="src/styles.css?v=3" />
+
+  <!-- React + Babel (pinned) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script src="src/data.js?v=3"></script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="text/babel" src="src/tweaks.jsx?v=3"></script>
+  <script type="text/babel" src="src/components-top.jsx?v=3"></script>
+  <script type="text/babel" src="src/components-mid.jsx?v=3"></script>
+  <script type="text/babel" src="src/components-bot.jsx?v=3"></script>
+
+  <script type="text/babel">
+    const D = window.TUTORIAL_DATA;
+
+    // Apply initial tweaks immediately (before paint)
+    window.applyTweaks(window.TWEAK_DEFAULTS);
+
+    function App() {
+      return (
+        <React.Fragment>
+          <TopBar />
+          <Hero meta={D.meta} />
+          <Marquee />
+          <main>
+            <Abstract />
+            <Objectives
+              objectives={D.objectives}
+              audiences={D.audiences}
+              prerequisites={D.prerequisites}
+            />
+            <Schedule schedule={D.schedule} />
+            <Presenters presenters={D.presenters} />
+            <References references={D.references} />
+            <History history={D.history} />
+            <Ethics />
+          </main>
+          <Footer />
+          <Tweaks />
+        </React.Fragment>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById("app")).render(<App />);
+  </script>
+</body>
+</html>
