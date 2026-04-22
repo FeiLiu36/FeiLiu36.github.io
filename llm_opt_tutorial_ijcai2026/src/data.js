@@ -13,6 +13,7 @@ window.TUTORIAL_DATA = {
       affiliation: "Stanford University",
       email: "lawlessc@stanford.edu",
       link: "https://conlaw.github.io/",
+      photo: "figures/connor_headshot.jpeg",
       blurb: "Human-Centered AI postdoctoral researcher at Stanford. PhD in Operations Research (Cornell). Works at the intersection of machine learning, computational optimization, and HCI.",
     },
     {
@@ -20,6 +21,7 @@ window.TUTORIAL_DATA = {
       affiliation: "University of Zurich · ETH Zurich",
       email: "fei.liu2@uzh.ch",
       link: "#",
+      photo: "figures/Fei-Liu.jpg",
       blurb: "Researcher focused on evolutionary computation, LLMs for algorithm design, and automated heuristic discovery. Lead author on EoH and related methods.",
     },
     {
@@ -27,6 +29,7 @@ window.TUTORIAL_DATA = {
       affiliation: "National University of Singapore",
       email: "hzqin@nus.edu.sg",
       link: "#",
+      photo: "figures/hanzhang_qin.png",
       blurb: "Operations research faculty working on optimization, revenue management, and the application of large language models to large-scale optimization workflows.",
     },
     {
@@ -34,6 +37,7 @@ window.TUTORIAL_DATA = {
       affiliation: "Stanford University",
       email: "vitercik@stanford.edu",
       link: "https://vitercik.github.io/",
+      photo: "figures/ellen_headshot.jpg",
       blurb: "Assistant Professor at Stanford (MS&E / CS). Schmidt Sciences AI2050 Early Career Fellow and NSF CAREER awardee. Works at the interface of machine learning and discrete optimization.",
     },
   ],

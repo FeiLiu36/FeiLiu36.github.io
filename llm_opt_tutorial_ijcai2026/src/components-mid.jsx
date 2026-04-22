@@ -95,7 +95,11 @@ function Presenters({ presenters }) {
             const initials = p.name.split(" ").map(w => w[0]).join("");
             return (
               <div className="person" key={p.name}>
-                <div className="avatar">{initials}</div>
+                <div className="avatar">
+                  {p.photo
+                    ? <img src={p.photo} alt={p.name} style={{width:"100%",height:"100%",objectFit:"cover",borderRadius:"3px"}} />
+                    : initials}
+                </div>
                 <div>
                   <h4>{p.name}</h4>
                   <p className="aff">{p.affiliation}</p>
