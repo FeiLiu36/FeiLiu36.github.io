@@ -3,7 +3,7 @@ const { useState: useStateTw, useEffect: useEffectTw } = React;
 // Default tweak values — edited in place by the host when user toggles.
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "accent": "teal",
-  "theme": "light",
+  "theme": "dark",
   "density": "normal"
 }/*EDITMODE-END*/;
 

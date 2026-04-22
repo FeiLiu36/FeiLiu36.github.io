@@ -129,13 +129,6 @@ function Footer() {
             <div className="foot-sub">Bremen, Germany · August 15–17, 2026</div>
           </div>
           <div className="foot-col">
-            <div className="t">Program</div>
-            <a href="#abstract">Abstract</a>
-            <a href="#objectives">Objectives</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#ethics">Ethics</a>
-          </div>
-          <div className="foot-col">
             <div className="t">Materials</div>
             <a href="https://conlaw.github.io/llm_opt_tutorial/tutorial.html" target="_blank" rel="noopener">AAAI 2026 version ↗</a>
             <a href="#references">Reading list</a>
@@ -149,7 +142,6 @@ function Footer() {
         </div>
         <div className="foot-bottom">
           <span>© 2026 · LLM4Opt Tutorial Organizers</span>
-          <span>Stanford · UZH · ETH · NUS</span>
           <span>Last updated · April 2026</span>
         </div>
       </div>

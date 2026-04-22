@@ -28,8 +28,8 @@
   --ink-2: #d9d3c3;
   --muted: #a49b86;
   --muted-2: #756e62;
-  --rule: #33302a;
-  --rule-soft: #282520;
+  --rule: #3d3930;
+  --rule-soft: #2a2822;
   --accent: oklch(0.78 0.09 230);
   --accent-soft: oklch(0.28 0.05 230);
   --accent-ink: oklch(0.86 0.08 230);
@@ -49,6 +49,8 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); }
+/* Force backgrounds on containers so host-injected inline body styles don't leak through */
+.hero, main, section.block, footer { background: var(--paper); }
 body {
   font-family: var(--f-serif);
   font-feature-settings: "liga", "kern";
@@ -411,8 +413,9 @@ section.block:last-child { border-bottom: 0; }
 }
 .avatar {
   width: 64px; height: 80px;
-  background: var(--paper-2);
-  border: 1px solid var(--rule);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  border: 1px solid color-mix(in oklab, var(--accent) 30%, transparent);
   border-radius: 4px;
   display: grid; place-items: center;
   font-family: var(--f-serif);
