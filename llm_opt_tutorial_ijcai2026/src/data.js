@@ -21,7 +21,7 @@ window.TUTORIAL_DATA = {
       affiliation: "University of Zurich · ETH Zurich",
       email: "fei.liu2@uzh.ch",
       link: "https://feiliu36.github.io/",
-      photo: "figures/Fei-Liu.jpg",
+      photo: "figures/Fei-Liu.png",
       blurb: "Postdoctoral researcher at UZH & ETH Zurich. Works on automated algorithm design, evolutionary algorithms, neural combinatorial optimization, and multiobjective optimization. Lead author on [LLM4AD](https://github.com/Optima-CityU/LLM4AD).",
     },
     {
