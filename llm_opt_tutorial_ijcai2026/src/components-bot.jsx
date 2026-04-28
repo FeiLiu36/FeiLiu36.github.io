@@ -4,12 +4,12 @@ const PAPER_LINK_PLACEHOLDER = "TODO_ADD_PAPER_LINK_HERE";
 // ======== References ========
 function References({ references }) {
   const topics = useMemoR(() => {
-    const set = new Set(references.map(r => r.topic));
+    const set = new Set(references.map((r) => r.topic));
     return ["All", ...Array.from(set)];
   }, [references]);
 
   const [active, setActive] = useStateR("All");
-  const filtered = active === "All" ? references : references.filter(r => r.topic === active);
+  const filtered = active === "All" ? references : references.filter((r) => r.topic === active);
 
   return (
     <section className="block" id="references">
@@ -59,7 +59,7 @@ function References({ references }) {
                 {r.link && r.link !== PAPER_LINK_PLACEHOLDER && (
                   <div className="ref-paper-link">
                     <a href={r.link} target="_blank" rel="noopener noreferrer">
-                      paper ↗
+                      paper
                     </a>
                   </div>
                 )}
@@ -95,7 +95,7 @@ function History({ history }) {
               <div className="y">{h.year}</div>
               <h5>{h.name}</h5>
               <p>{h.detail}</p>
-              {h.link && <a href={h.link} target="_blank" rel="noopener">↗ materials</a>}
+              {h.link && <a href={h.link} target="_blank" rel="noopener">materials</a>}
             </div>
           ))}
         </div>
@@ -150,7 +150,9 @@ function Footer() {
           </div>
           <div className="foot-col">
             <div className="t">Materials</div>
-            <a href="https://conlaw.github.io/llm_opt_tutorial/tutorial.html" target="_blank" rel="noopener">AAAI 2026 version ↗</a>
+            <a href="https://conlaw.github.io/llm_opt_tutorial/tutorial.html" target="_blank" rel="noopener">
+              AAAI 2026 version
+            </a>
             <a href="#references">Reading list</a>
             <a href="#history">Previous editions</a>
           </div>

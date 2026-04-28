@@ -1,4 +1,4 @@
-﻿// Tutorial data IJCAI 2026
+﻿// Tutorial data — IJCAI 2026
 const PAPER_LINK_PLACEHOLDER = "TODO_ADD_PAPER_LINK_HERE";
 window.TUTORIAL_DATA = {
   meta: {
@@ -14,15 +14,15 @@ window.TUTORIAL_DATA = {
       email: "lawlessc@stanford.edu",
       link: "https://conlaw.github.io/",
       photo: "figures/connor_headshot.jpeg",
-      blurb: "Human-Centered AI postdoctoral researcher at Stanford, with a PhD in Operations Research and Information Engineering from Cornell. His work blends machine learning, computational optimization, and human鈥揷omputer interaction to create human-centered artificial intelligence.",
+      blurb: "Human-Centered AI postdoctoral researcher at Stanford, with a PhD in Operations Research and Information Engineering from Cornell. His work blends machine learning, computational optimization, and human–computer interaction to create human-centered artificial intelligence.",
     },
     {
       name: "Fei Liu",
-      affiliation: "University of Zurich & ETH Zurich",
+      affiliation: "University of Zurich and ETH Zurich",
       email: "fei.liu2@uzh.ch",
       link: "https://feiliu36.github.io/",
       photo: "figures/Fei-Liu.png",
-      blurb: "Postdoctoral researcher at UZH & ETH Zurich. Works on automated algorithm design, evolutionary algorithms, neural combinatorial optimization, and multiobjective optimization. Lead author on [LLM4AD](https://github.com/Optima-CityU/LLM4AD).",
+      blurb: "Postdoctoral researcher at UZH & ETH Zurich. Works on automated algorithm design, evolutionary algorithms, neural combinatorial optimization, and multiobjective optimization. Lead author on LLM4AD.",
     },
     {
       name: "Hanzhang Qin",
@@ -38,7 +38,7 @@ window.TUTORIAL_DATA = {
       email: "vitercik@stanford.edu",
       link: "https://vitercik.github.io/",
       photo: "figures/ellen_headshot.jpg",
-      blurb: "Assistant Professor at Stanford with a joint appointment between the Management Science & Engineering and Computer Science departments. Her research鈥攚hich has been recognized with a Schmidt Sciences AI2050 Early Career Fellowship and an NSF CAREER award, among other honors鈥攕pans machine learning and discrete optimization.",
+      blurb: "Assistant Professor at Stanford with a joint appointment between the Management Science & Engineering and Computer Science departments. Her research—which has been recognized with a Schmidt Sciences AI2050 Early Career Fellowship and an NSF CAREER award, among other honors—spans machine learning and discrete optimization.",
     },
   ],
   schedule: [
@@ -48,7 +48,7 @@ window.TUTORIAL_DATA = {
       title: "Introduction",
       duration: "15 min",
       minutes: 15,
-      speaker: "All",
+      speaker: "",
       blurb: "A broad overview of mathematical optimization, centered on mixed integer linear programming (MILP) as a core AI and OR technique.",
       bullets: [
         "The optimization pipeline: understand, formulate, tune, validate.",
@@ -62,7 +62,7 @@ window.TUTORIAL_DATA = {
       title: "Optimization Model Formulation",
       duration: "45 min",
       minutes: 45,
-      speaker: ".",
+      speaker: "",
       blurb: "Translating informal problem descriptions into precise optimization models, a central bottleneck for domain experts without formal training in optimization.",
       bullets: [
         "Agentic frameworks: OptiMUS, LEAN-LLM-OPT, Chain-of-Experts, MCTS-based approaches.",
@@ -76,7 +76,7 @@ window.TUTORIAL_DATA = {
       title: "Optimization Model Evaluation",
       duration: "30 min",
       minutes: 30,
-      speaker: ".",
+      speaker: "",
       blurb: "How do we know a generated formulation actually solves the right problem? Recent frameworks for assessing correctness and equivalence.",
       bullets: [
         "Graph-isomorphism-based approaches.",
@@ -100,7 +100,7 @@ window.TUTORIAL_DATA = {
       title: "Optimization Model Solving",
       duration: "45 min",
       minutes: 45,
-      speaker: ".",
+      speaker: "",
       blurb: "Modern solvers (Gurobi, CPLEX) expose many configuration parameters whose tuning is time-consuming even for experts. Can LLMs help?",
       bullets: [
         "LLMs leveraging documentation, code, and prior research for cold-start configuration.",
@@ -114,8 +114,8 @@ window.TUTORIAL_DATA = {
       title: "Algorithmic Design with LLMs",
       duration: "45 min",
       minutes: 45,
-      speaker: ".",
-      blurb: "LLMs as a new paradigm for automating algorithm design 鈥?lowering the barrier to entry and exploring design spaces hard to navigate manually.",
+      speaker: "",
+      blurb: "LLMs as a new paradigm for automating algorithm design — lowering the barrier to entry and exploring design spaces hard to navigate manually.",
       bullets: [
         "A taxonomy: LLM as optimizer, LLM as extractor, LLM as predictor, LLM as designer.",
         "Methods: EoH, ReEvo, Llamea, HSEvo, MEoH, MLES, EoH-S, MoH.",
@@ -152,8 +152,8 @@ window.TUTORIAL_DATA = {
   ],
   references: [
     { key: "AhmadiTeshnizi et al., 2024", topic: "Formulation", title: "OptiMUS: Scalable Optimization Modeling with MILP Solvers and Large Language Models", venue: "ICML 2024", link: "https://arxiv.org/abs/2402.10172" },
-    { key: "Zhai et al., 2025", topic: "Formulation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: "https://arxiv.org/abs/2502.14760" },
-    { key: "Astorga et al., 2025", topic: "Formulation", title: "Autoformulation of Mathematical Optimization Models Using LLMs", venue: "ICML 2025", "https://arxiv.org/abs/2411.01679" },
+    //{ key: "Zhai et al., 2025", topic: "Formulation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: "https://arxiv.org/abs/2502.14760" },
+    { key: "Astorga et al., 2025", topic: "Formulation", title: "Autoformulation of Mathematical Optimization Models Using LLMs", venue: "ICML 2025", link: "https://arxiv.org/abs/2411.01679" },
     { key: "Xiao et al., 2023", topic: "Formulation", title: "Chain-of-Experts: When LLMs Meet Complex Operations Research Problems", venue: "ICLR 2023", link: "https://openreview.net/forum?id=HobyL1B9CZ" },
     { key: "Huang et al., 2025", topic: "Formulation", title: "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling", venue: "Operations Research 2025", link: "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1233" },
     { key: "Jiang et al., 2025", topic: "Formulation", title: "LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch", venue: "ICLR 2025", link: "https://arxiv.org/abs/2410.13213" },

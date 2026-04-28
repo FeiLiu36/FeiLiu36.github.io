@@ -120,50 +120,50 @@ function Abstract() {
   );
 }
 
-// ======== Objectives + audience ========
-function Objectives({ objectives, audiences, prerequisites }) {
-  return (
-    <section className="block" id="objectives">
-      <div className="shell">
-        <div className="block-head">
-          <div className="block-num">§ 02 · Who &amp; Why</div>
-          <div>
-            <h2 className="block-title">Objectives and audience</h2>
-            <p className="block-kicker">
-              The tutorial bridges AI researchers new to optimization, OR researchers curious about
-              how LLMs can assist modeling and algorithm design, and practitioners building
-              AI-enabled decision-support systems.
-            </p>
-          </div>
-        </div>
+// // ======== Objectives + audience ========
+// function Objectives({ objectives, audiences, prerequisites }) {
+//   return (
+//     <section className="block" id="objectives">
+//       <div className="shell">
+//         <div className="block-head">
+//           <div className="block-num">§ 02 · Who &amp; Why</div>
+//           <div>
+//             <h2 className="block-title">Objectives and audience</h2>
+//             <p className="block-kicker">
+//               The tutorial bridges AI researchers new to optimization, OR researchers curious about
+//               how LLMs can assist modeling and algorithm design, and practitioners building
+//               AI-enabled decision-support systems.
+//             </p>
+//           </div>
+//         </div>
 
-        <div className="two-col">
-          <div>
-            <div className="subhead">Learning outcomes</div>
-            <ol className="list-clean">
-              {objectives.map((o, i) => <li key={i}><span>{o}</span></li>)}
-            </ol>
-          </div>
-          <div>
-            <div className="subhead">Intended audience</div>
-            <div className="aud-grid">
-              {audiences.map((a) => (
-                <div className="aud-card" key={a.tag}>
-                  <div className="tag">{a.tag}</div>
-                  <p>{a.blurb}</p>
-                </div>
-              ))}
-            </div>
+//         <div className="two-col">
+//           <div>
+//             <div className="subhead">Learning outcomes</div>
+//             <ol className="list-clean">
+//               {objectives.map((o, i) => <li key={i}><span>{o}</span></li>)}
+//             </ol>
+//           </div>
+//           <div>
+//             <div className="subhead">Intended audience</div>
+//             <div className="aud-grid">
+//               {audiences.map((a) => (
+//                 <div className="aud-card" key={a.tag}>
+//                   <div className="tag">{a.tag}</div>
+//                   <p>{a.blurb}</p>
+//                 </div>
+//               ))}
+//             </div>
 
-            <div className="subhead" style={{ marginTop: 32 }}>Prerequisites</div>
-            <ol className="list-clean">
-              {prerequisites.map((p, i) => <li key={i}><span>{p}</span></li>)}
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+//             <div className="subhead" style={{ marginTop: 32 }}>Prerequisites</div>
+//             <ol className="list-clean">
+//               {prerequisites.map((p, i) => <li key={i}><span>{p}</span></li>)}
+//             </ol>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
-Object.assign(window, { TopBar, Hero, Marquee, Abstract, Objectives });
+Object.assign(window, { TopBar, Hero, Marquee, Abstract});
