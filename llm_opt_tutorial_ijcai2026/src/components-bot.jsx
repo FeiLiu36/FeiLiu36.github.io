@@ -42,7 +42,7 @@ function References({ references }) {
             <div className="ref-item" key={r.key + r.title}>
               <div className="ref-topic">{r.topic}</div>
               <div>
-                <h4 className="ref-title">
+                <h4 className={`ref-title ${r.link && r.link !== PAPER_LINK_PLACEHOLDER ? "is-linked" : ""}`}>
                   <a
                     href={r.link && r.link !== PAPER_LINK_PLACEHOLDER ? r.link : "#"}
                     target={r.link && r.link !== PAPER_LINK_PLACEHOLDER ? "_blank" : undefined}
