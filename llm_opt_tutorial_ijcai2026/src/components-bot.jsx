@@ -1,4 +1,5 @@
 const { useState: useStateR, useMemo: useMemoR } = React;
+const PAPER_LINK_PLACEHOLDER = "TODO_ADD_PAPER_LINK_HERE";
 
 // ======== References ========
 function References({ references }) {
@@ -41,8 +42,27 @@ function References({ references }) {
             <div className="ref-item" key={r.key + r.title}>
               <div className="ref-topic">{r.topic}</div>
               <div>
-                <h4 className="ref-title">{r.title}</h4>
+                <h4 className="ref-title">
+                  <a
+                    href={r.link && r.link !== PAPER_LINK_PLACEHOLDER ? r.link : "#"}
+                    target={r.link && r.link !== PAPER_LINK_PLACEHOLDER ? "_blank" : undefined}
+                    rel={r.link && r.link !== PAPER_LINK_PLACEHOLDER ? "noopener noreferrer" : undefined}
+                    onClick={(e) => {
+                      if (!r.link || r.link === PAPER_LINK_PLACEHOLDER) e.preventDefault();
+                    }}
+                    title={r.link || PAPER_LINK_PLACEHOLDER}
+                  >
+                    {r.title}
+                  </a>
+                </h4>
                 <div className="ref-cite">{r.key}</div>
+                {r.link && r.link !== PAPER_LINK_PLACEHOLDER && (
+                  <div className="ref-paper-link">
+                    <a href={r.link} target="_blank" rel="noopener noreferrer">
+                      paper ↗
+                    </a>
+                  </div>
+                )}
               </div>
               <div className="ref-venue">{r.venue}</div>
             </div>

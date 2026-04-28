@@ -56,10 +56,6 @@ function Hero({ meta }) {
             <div className="k">Length</div>
             <div className="v">{meta.length}</div>
           </div>
-          <div className="meta-cell">
-            <div className="k">Format</div>
-            <div className="v">{meta.format}</div>
-          </div>
         </div>
       </div>
     </header>
