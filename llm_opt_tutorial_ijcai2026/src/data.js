@@ -1,4 +1,4 @@
-﻿// Tutorial data 鈥?IJCAI 2026
+﻿// Tutorial data IJCAI 2026
 const PAPER_LINK_PLACEHOLDER = "TODO_ADD_PAPER_LINK_HERE";
 window.TUTORIAL_DATA = {
   meta: {
@@ -18,7 +18,7 @@ window.TUTORIAL_DATA = {
     },
     {
       name: "Fei Liu",
-      affiliation: "University of Zurich 路 ETH Zurich",
+      affiliation: "University of Zurich & ETH Zurich",
       email: "fei.liu2@uzh.ch",
       link: "https://feiliu36.github.io/",
       photo: "figures/Fei-Liu.png",
@@ -51,7 +51,7 @@ window.TUTORIAL_DATA = {
       speaker: "All",
       blurb: "A broad overview of mathematical optimization, centered on mixed integer linear programming (MILP) as a core AI and OR technique.",
       bullets: [
-        "The optimization pipeline: understand 鈫?formulate 鈫?tune 鈫?validate.",
+        "The optimization pipeline: understand, formulate, tune, validate.",
         "Where current bottlenecks lie, and where LLMs can help.",
         "Framing the two halves of the tutorial: copilot + discovery.",
       ],
@@ -63,7 +63,7 @@ window.TUTORIAL_DATA = {
       duration: "45 min",
       minutes: 45,
       speaker: ".",
-      blurb: "Translating informal problem descriptions into precise optimization models 鈥?a central bottleneck for domain experts without formal training in optimization.",
+      blurb: "Translating informal problem descriptions into precise optimization models, a central bottleneck for domain experts without formal training in optimization.",
       bullets: [
         "Agentic frameworks: OptiMUS, LEAN-LLM-OPT, Chain-of-Experts, MCTS-based approaches.",
         "Fine-tuned models specialized for optimization: ORLM, LLM-OPT.",
@@ -79,9 +79,9 @@ window.TUTORIAL_DATA = {
       speaker: ".",
       blurb: "How do we know a generated formulation actually solves the right problem? Recent frameworks for assessing correctness and equivalence.",
       bullets: [
-        "Graph-isomorphism-based approaches (Xing et al., 2024).",
-        "Execution-based accuracy metrics (AhmadiTeshnizi et al., 2024).",
-        "EquivaMap: formal equivalence checking (Zhai et al., 2025).",
+        "Graph-isomorphism-based approaches.",
+        "Execution-based accuracy metrics.",
+        "EquivaMap: formal equivalence checking.",
       ],
     },
     {
@@ -117,10 +117,10 @@ window.TUTORIAL_DATA = {
       speaker: ".",
       blurb: "LLMs as a new paradigm for automating algorithm design 鈥?lowering the barrier to entry and exploring design spaces hard to navigate manually.",
       bullets: [
-        "A taxonomy: LLM as optimizer 路 extractor 路 predictor 路 designer.",
-        "Methods: EoH, ReEvo, Llamea, HSEvo, MEoH, MLES.",
+        "A taxonomy: LLM as optimizer, LLM as extractor, LLM as predictor, LLM as designer.",
+        "Methods: EoH, ReEvo, Llamea, HSEvo, MEoH, MLES, EoH-S, MoH.",
         "Applications across combinatorial optimization, black-box optimization, ML, and scientific discovery.",
-        "Open challenges: domain LLMs, benchmarking, human鈥揂I collaboration.",
+        "Open challenges.",
       ],
     },
   ],
@@ -152,30 +152,31 @@ window.TUTORIAL_DATA = {
   ],
   references: [
     { key: "AhmadiTeshnizi et al., 2024", topic: "Formulation", title: "OptiMUS: Scalable Optimization Modeling with MILP Solvers and Large Language Models", venue: "ICML 2024", link: "https://arxiv.org/abs/2402.10172" },
-    { key: "Zhai et al., 2025", topic: "Formulation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Astorga et al., 2025", topic: "Formulation", title: "Autoformulation of Mathematical Optimization Models Using LLMs", venue: "ICML 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Xiao et al., 2023", topic: "Formulation", title: "Chain-of-Experts: When LLMs Meet Complex Operations Research Problems", venue: "ICLR 2023", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Huang et al., 2025", topic: "Formulation", title: "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling", venue: "Operations Research 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Jiang et al., 2025", topic: "Formulation", title: "LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch", venue: "ICLR 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Liang et al., 2026", topic: "Formulation", title: "Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow", venue: "arXiv 2026", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Xing et al., 2024", topic: "Evaluation", title: "Towards Human-Aligned Evaluation for Linear Programming Word Problems", venue: "LREC-COLING 2024", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Zhai et al., 2025", topic: "Evaluation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Lawless et al., 2025", topic: "Solving", title: "LLMs for Cold-Start Cutting Plane Separator Configuration", venue: "CPAIOR 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Liu et al., 2024", topic: "Algorithm Design", title: "Evolution of Heuristics (EoH): Towards Efficient Automatic Algorithm Design Using LLMs", venue: "ICML 2024", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Ye et al., 2024", topic: "Algorithm Design", title: "ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution", venue: "NeurIPS 2024", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Van Stein & B盲ck, 2024", topic: "Algorithm Design", title: "Llamea: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics", venue: "IEEE TEVC 2024", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Dat et al., 2025", topic: "Algorithm Design", title: "HSEvo: Elevating Automatic Heuristic Design with Diversity-Driven Harmony Search and Genetic Algorithm Using LLMs", venue: "AAAI 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Yao et al., 2025", topic: "Algorithm Design", title: "Multi-Objective Evolution of Heuristics Using Large Language Models", venue: "AAAI 2025", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Hu et al., 2026", topic: "Algorithm Design", title: "Multimodal LLM-Assisted Evolutionary Search for Programmatic Control Policies", venue: "ICLR 2026", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Liu et al., 2026", topic: "Algorithm Design", title: "EoH-S: Evolution of Heuristic Set Using LLMs for Automated Heuristic Design", venue: "AAAI 2026", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Shi et al., 2026", topic: "Algorithm Design", title: "Generalizable Heuristic Generation Through Large Language Models with Meta-Optimization", venue: "ICLR 2026", link: PAPER_LINK_PLACEHOLDER },
-    { key: "Liu et al., 2026", topic: "Survey", title: "A Systematic Survey on Large Language Models for Algorithm Design", venue: "ACM Computing Surveys 2026", link: PAPER_LINK_PLACEHOLDER },
+    { key: "Zhai et al., 2025", topic: "Formulation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: "https://arxiv.org/abs/2502.14760" },
+    { key: "Astorga et al., 2025", topic: "Formulation", title: "Autoformulation of Mathematical Optimization Models Using LLMs", venue: "ICML 2025", "https://arxiv.org/abs/2411.01679" },
+    { key: "Xiao et al., 2023", topic: "Formulation", title: "Chain-of-Experts: When LLMs Meet Complex Operations Research Problems", venue: "ICLR 2023", link: "https://openreview.net/forum?id=HobyL1B9CZ" },
+    { key: "Huang et al., 2025", topic: "Formulation", title: "ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling", venue: "Operations Research 2025", link: "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1233" },
+    { key: "Jiang et al., 2025", topic: "Formulation", title: "LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch", venue: "ICLR 2025", link: "https://arxiv.org/abs/2410.13213" },
+    { key: "Liang et al., 2026", topic: "Formulation", title: "Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow", venue: "arXiv 2026", link: "https://arxiv.org/abs/2601.09635" },
+    { key: "Xing et al., 2024", topic: "Evaluation", title: "Towards Human-Aligned Evaluation for Linear Programming Word Problems", venue: "LREC-COLING 2024", link: "https://aclanthology.org/2024.lrec-main.1438/" },
+    { key: "Zhai et al., 2025", topic: "Evaluation", title: "EquivaMap: Leveraging LLMs for Automatic Equivalence Checking of Optimization Formulations", venue: "ICML 2025", link: "https://arxiv.org/abs/2502.14760" },
+    { key: "Lawless et al., 2025", topic: "Solving", title: "LLMs for Cold-Start Cutting Plane Separator Configuration", venue: "CPAIOR 2025", link: "https://link.springer.com/chapter/10.1007/978-3-031-95976-9_4" },
+    { key: "Liu et al., 2024", topic: "Algorithm Design", title: "Evolution of Heuristics (EoH): Towards Efficient Automatic Algorithm Design Using LLMs", venue: "ICML 2024", link: "https://openreview.net/forum?id=BwAkaxqiLB" },
+    { key: "Ye et al., 2024", topic: "Algorithm Design", title: "ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution", venue: "NeurIPS 2024", link: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4ced59d480e07d290b6f29fc8798f195-Abstract-Conference.html" },
+    { key: "Van Stein & Back, 2024", topic: "Algorithm Design", title: "Llamea: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics", venue: "IEEE TEVC 2024", link: "https://ieeexplore.ieee.org/abstract/document/10752628" },
+    { key: "Dat et al., 2025", topic: "Algorithm Design", title: "HSEvo: Elevating Automatic Heuristic Design with Diversity-Driven Harmony Search and Genetic Algorithm Using LLMs", venue: "AAAI 2025", link: "https://ojs.aaai.org/index.php/AAAI/article/view/34898" },
+    { key: "Yao et al., 2025", topic: "Algorithm Design", title: "Multi-Objective Evolution of Heuristics Using Large Language Models", venue: "AAAI 2025", link: "https://ojs.aaai.org/index.php/AAAI/article/view/34922" },
+    { key: "Hu et al., 2026", topic: "Algorithm Design", title: "Multimodal LLM-Assisted Evolutionary Search for Programmatic Control Policies", venue: "ICLR 2026", link: "https://arxiv.org/abs/2508.05433" },
+    { key: "Liu et al., 2026", topic: "Algorithm Design", title: "EoH-S: Evolution of Heuristic Set Using LLMs for Automated Heuristic Design", venue: "AAAI 2026", link: "https://ojs.aaai.org/index.php/AAAI/article/view/41038" },
+    { key: "Shi et al., 2026", topic: "Algorithm Design", title: "Generalizable Heuristic Generation Through Large Language Models with Meta-Optimization", venue: "ICLR 2026", link: "https://arxiv.org/abs/2505.20881" },
+    { key: "Liu et al., 2026", topic: "Survey", title: "A Systematic Survey on Large Language Models for Algorithm Design", venue: "ACM Computing Surveys 2026", link: "https://arxiv.org/abs/2410.14716" },
+    { key: "Xiao et al., 2026", topic: "Survey", title: "A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions", venue: "arXiv 2025", link: "https://arxiv.org/abs/2508.10047" },
     { key: "Conforti et al., 2014", topic: "Background", title: "Integer Programming", venue: "Springer", link: PAPER_LINK_PLACEHOLDER },
   ],
   history: [
-    { year: "2026 路 Jan", name: "AAAI 2026 Tutorial", detail: "Preliminary version delivered, ~200 attendees.", link: "https://conlaw.github.io/llm_opt_tutorial/tutorial.html" },
-    { year: "2025", name: "CEC 2025 路 IJCCI 2025 路 IEEE Web Seminar", detail: "Invited talks on automated algorithm design with LLMs; materials online.", link: "https://cis.taskforce.ieee.org/esco/webinar-series/esco-webinar-26/" },
-    { year: "2026 路 Aug", name: "IJCAI 2026 Tutorial", detail: "Expanded version with algorithmic discovery track.", link: null },
+    { year: "2026", name: "AAAI 2026 Tutorial", detail: "Preliminary version delivered, ~200 attendees.", link: "https://conlaw.github.io/llm_opt_tutorial/tutorial.html" },
+    { year: "2025", name: "CEC 2025  IJCCI 2025  IEEE Web Seminar", detail: "Invited talks on automated algorithm design with LLMs; materials online.", link: "https://cis.taskforce.ieee.org/esco/webinar-series/esco-webinar-26/" },
+    { year: "2026", name: "IJCAI 2026 Tutorial", detail: "Expanded version with algorithmic discovery track.", link: null },
   ],
 };
 
