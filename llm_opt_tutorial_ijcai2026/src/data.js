@@ -171,6 +171,7 @@ window.TUTORIAL_DATA = {
     { key: "Shi et al., 2026", topic: "Algorithm Design", title: "Generalizable Heuristic Generation Through Large Language Models with Meta-Optimization", venue: "ICLR 2026", link: "https://arxiv.org/abs/2505.20881" },
     { key: "Liu et al., 2026", topic: "Survey", title: "A Systematic Survey on Large Language Models for Algorithm Design", venue: "ACM Computing Surveys 2026", link: "https://arxiv.org/abs/2410.14716" },
     { key: "Xiao et al., 2026", topic: "Survey", title: "A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions", venue: "arXiv 2025", link: "https://arxiv.org/abs/2508.10047" },
+    { key: "Lawless et al., 2025", topic: "Background", title: "“It Was a Magical Box”: Understanding Practitioner Workflows and Needs in Optimization", venue: "arXiv 2025", link: "https://arxiv.org/abs/2509.16402" },
     { key: "Conforti et al., 2014", topic: "Background", title: "Integer Programming", venue: "Springer", link: PAPER_LINK_PLACEHOLDER },
   ],
   history: [
