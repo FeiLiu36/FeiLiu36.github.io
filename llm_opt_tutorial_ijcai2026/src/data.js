@@ -54,7 +54,7 @@ window.TUTORIAL_DATA = {
         "Agentic frameworks and fine-tuned models: OptiMUS, Chain-of-Experts, ORLM, LLMOPT.",
         "Benchmarks and correctness: execution accuracy, human-aligned metrics, EquivaMap.",
       ],
-      slides: { file: "slides/Introduction.pdf", pages: 131, size: "15.4 MB" },
+      slides: { file: "slides/Introduction.pdf", cover: "slides/cover-introduction.jpg", pages: 131, size: "15.4 MB" },
     },
     {
       id: "part2",
@@ -68,7 +68,7 @@ window.TUTORIAL_DATA = {
         "Methods: EoH, ReEvo, LLaMEA, HSEvo, MEoH, MLES, EoH-S.",
         "Applications across combinatorial optimization, black-box optimization, ML, and scientific discovery.",
       ],
-      slides: { file: "slides/LLM4AD_FeiLiu_IJCAI_Tutorial.pdf", pages: 64, size: "6.4 MB" },
+      slides: { file: "slides/LLM4AD_FeiLiu_IJCAI_Tutorial.pdf", cover: "slides/cover-llm4ad.jpg", pages: 64, size: "6.4 MB" },
     },
     {
       id: "part3",

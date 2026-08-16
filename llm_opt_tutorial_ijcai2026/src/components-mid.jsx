@@ -46,6 +46,12 @@ function Schedule({ schedule }) {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
+                        <img
+                          className="thumb"
+                          src={row.slides.cover}
+                          alt={`First slide of ${row.title}`}
+                          loading="lazy"
+                        />
                         <span className="pdf">PDF ↓</span>
                         <span className="det">{row.slides.pages} slides · {row.slides.size}</span>
                       </a>
