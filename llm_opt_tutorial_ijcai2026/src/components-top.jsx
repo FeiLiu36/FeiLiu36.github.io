@@ -13,6 +13,7 @@ function TopBar() {
         <nav className="topnav">
           <a href="#abstract">Abstract</a>
           <a href="#schedule">Schedule</a>
+          <a href="#slides">Slides</a>
           <a href="#presenters">Presenters</a>
           <a href="#references">References</a>
         </nav>

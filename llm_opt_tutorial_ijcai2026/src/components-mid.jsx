@@ -74,13 +74,59 @@ function Schedule({ schedule }) {
   );
 }
 
+// ======== Slides ========
+function Slides({ slides }) {
+  return (
+    <section className="block" id="slides">
+      <div className="shell">
+        <div className="block-head">
+          <div className="block-num">§ 04 · Materials</div>
+          <div>
+            <h2 className="block-title">Tutorial slides</h2>
+            <p className="block-kicker">
+              Slide decks presented at IJCAI 2026, available as PDF. Click a deck to open or
+              download it.
+            </p>
+          </div>
+        </div>
+
+        <div className="slide-grid">
+          {slides.map((s) => (
+            <a
+              className="slide-card"
+              key={s.id}
+              href={s.file}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="slide-thumb">
+                <img src={s.cover} alt={`First slide of ${s.title}`} loading="lazy" />
+              </div>
+              <div className="slide-body">
+                <div className="slide-parts">{s.parts}</div>
+                <h3 className="slide-title">{s.title}</h3>
+                <p className="slide-covers">{s.covers}</p>
+                <div className="slide-meta">
+                  <span>{s.speaker}</span>
+                  <span>{s.pages} slides</span>
+                  <span>PDF · {s.size}</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 // ======== Presenters ========
 function Presenters({ presenters }) {
   return (
     <section className="block" id="presenters">
       <div className="shell">
         <div className="block-head">
-          <div className="block-num">§ 04 · Organizers</div>
+          <div className="block-num">§ 05 · Organizers</div>
           <div>
             <h2 className="block-title">Presenters</h2>
             <p className="block-kicker">
@@ -118,4 +164,4 @@ function Presenters({ presenters }) {
   );
 }
 
-Object.assign(window, { Schedule, Presenters });
+Object.assign(window, { Schedule, Slides, Presenters });
