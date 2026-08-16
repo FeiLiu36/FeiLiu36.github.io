@@ -12,8 +12,7 @@ function TopBar() {
         </a>
         <nav className="topnav">
           <a href="#abstract">Abstract</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#slides">Slides</a>
+          <a href="#schedule">Program</a>
           <a href="#presenters">Presenters</a>
           <a href="#references">References</a>
         </nav>
@@ -102,7 +101,7 @@ function Abstract() {
                 <div className="l">Total duration</div>
               </div>
               <div className="ov-item">
-                <div className="n">5</div>
+                <div className="n">3</div>
                 <div className="l">Program parts</div>
               </div>
               <div className="ov-item">

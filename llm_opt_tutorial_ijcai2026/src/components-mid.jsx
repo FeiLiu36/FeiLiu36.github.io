@@ -1,119 +1,62 @@
-const { useState: useStateSch, useMemo: useMemoSch } = React;
-
-// ======== Schedule ========
+// ======== Program table ========
 function Schedule({ schedule }) {
-  const [open, setOpen] = useStateSch(new Set(["intro"]));
-  const toggle = (id) => {
-    setOpen((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  };
-
-  // Build running-time stamps starting at a nominal 09:00
-  const stamps = useMemoSch(() => {
-    let m = 9 * 60;
-    return schedule.map((s) => {
-      const start = m;
-      m += s.minutes;
-      const h = Math.floor(start / 60);
-      const min = start % 60;
-      return `${String(h).padStart(2, "0")}:${String(min).padStart(2, "0")}`;
-    });
-  }, [schedule]);
-
   return (
     <section className="block" id="schedule">
       <div className="shell">
         <div className="block-head">
           <div className="block-num">§ 03 · Program</div>
           <div>
-            <h2 className="block-title">Detailed schedule</h2>
+            <h2 className="block-title">Program</h2>
             <p className="block-kicker">
-              Total duration 3 hours 30 minutes with a 30-minute coffee break. Start times are
-              placeholders relative to a 09:00 session start — click any row to expand.
+              Three sessions totalling three hours, plus a 30-minute coffee break. Slides are
+              linked below as they become available.
             </p>
           </div>
         </div>
 
-        <div className="schedule">
-          {schedule.map((row, i) => {
-            const isBreak = row.id === "break";
-            const isOpen = open.has(row.id);
-            return (
-              <div
-                key={row.id}
-                className={`sch-row ${isOpen ? "open" : ""} ${isBreak ? "is-break" : ""}`}
-                onClick={() => !isBreak && toggle(row.id)}
-              >
-                <div className="sch-num">
-                  {stamps[i]} · {row.part}
-                </div>
-                <div className="sch-dur">{row.duration}</div>
-                <div>
-                  <h3 className="sch-title">{row.title}</h3>
-                  {row.blurb && <p className="sch-blurb">{row.blurb}</p>}
-                  {!isBreak && (
-                    <div className="sch-detail">
-                      <ul>
-                        {row.bullets.map((b, j) => <li key={j}>{b}</li>)}
-                      </ul>
-                    </div>
-                  )}
-                </div>
-                <div className="sch-speaker">{row.speaker || ""}</div>
-                <div className="sch-caret">{isBreak ? "" : "+"}</div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ======== Slides ========
-function Slides({ slides }) {
-  return (
-    <section className="block" id="slides">
-      <div className="shell">
-        <div className="block-head">
-          <div className="block-num">§ 04 · Materials</div>
-          <div>
-            <h2 className="block-title">Tutorial slides</h2>
-            <p className="block-kicker">
-              Slide decks presented at IJCAI 2026, available as PDF. Click a deck to open or
-              download it.
-            </p>
-          </div>
-        </div>
-
-        <div className="slide-grid">
-          {slides.map((s) => (
-            <a
-              className="slide-card"
-              key={s.id}
-              href={s.file}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="slide-thumb">
-                <img src={s.cover} alt={`First slide of ${s.title}`} loading="lazy" />
-              </div>
-              <div className="slide-body">
-                <div className="slide-parts">{s.parts}</div>
-                <h3 className="slide-title">{s.title}</h3>
-                <p className="slide-covers">{s.covers}</p>
-                <div className="slide-meta">
-                  <span>{s.speaker}</span>
-                  <span>{s.pages} slides</span>
-                  <span>PDF · {s.size}</span>
-                </div>
-              </div>
-            </a>
-          ))}
+        <div className="prog-wrap">
+          <table className="prog-table">
+            <thead>
+              <tr>
+                <th className="c-part">Part</th>
+                <th className="c-session">Session</th>
+                <th className="c-dur">Duration</th>
+                <th className="c-speaker">Presenter</th>
+                <th className="c-slides">Slides</th>
+              </tr>
+            </thead>
+            <tbody>
+              {schedule.map((row) => (
+                <tr key={row.id}>
+                  <td className="c-part" data-label="Part">{row.part}</td>
+                  <td className="c-session">
+                    <h3 className="prog-title">{row.title}</h3>
+                    {row.blurb && <p className="prog-blurb">{row.blurb}</p>}
+                    <ul className="prog-topics">
+                      {row.topics.map((t, i) => <li key={i}>{t}</li>)}
+                    </ul>
+                  </td>
+                  <td className="c-dur" data-label="Duration">{row.duration}</td>
+                  <td className="c-speaker" data-label="Presenter">{row.speaker}</td>
+                  <td className="c-slides" data-label="Slides">
+                    {row.slides ? (
+                      <a
+                        className="prog-slides-link"
+                        href={row.slides.file}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="pdf">PDF ↓</span>
+                        <span className="det">{row.slides.pages} slides · {row.slides.size}</span>
+                      </a>
+                    ) : (
+                      <span className="prog-slides-none">to come</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
@@ -126,7 +69,7 @@ function Presenters({ presenters }) {
     <section className="block" id="presenters">
       <div className="shell">
         <div className="block-head">
-          <div className="block-num">§ 05 · Organizers</div>
+          <div className="block-num">§ 04 · Organizers</div>
           <div>
             <h2 className="block-title">Presenters</h2>
             <p className="block-kicker">
@@ -164,4 +107,4 @@ function Presenters({ presenters }) {
   );
 }
 
-Object.assign(window, { Schedule, Slides, Presenters });
+Object.assign(window, { Schedule, Presenters });

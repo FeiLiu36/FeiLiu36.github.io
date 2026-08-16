@@ -15,7 +15,7 @@ function References({ references }) {
     <section className="block" id="references">
       <div className="shell">
         <div className="block-head">
-          <div className="block-num">§ 06 · Reading</div>
+          <div className="block-num">§ 05 · Reading</div>
           <div>
             <h2 className="block-title">Key references</h2>
             <p className="block-kicker">
@@ -150,7 +150,7 @@ function Footer() {
           </div>
           <div className="foot-col">
             <div className="t">Materials</div>
-            <a href="#slides">Tutorial slides</a>
+            <a href="#schedule">Tutorial slides</a>
             <a href="https://conlaw.github.io/llm_opt_tutorial/tutorial.html" target="_blank" rel="noopener">
               AAAI 2026 version
             </a>
