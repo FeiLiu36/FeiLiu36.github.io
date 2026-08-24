@@ -8,8 +8,8 @@ function Schedule({ schedule }) {
           <div>
             <h2 className="block-title">Program</h2>
             <p className="block-kicker">
-              Three sessions totalling three hours, plus a 30-minute coffee break. Slides are
-              linked below as they become available.
+              Three sessions totalling three hours, plus a 30-minute coffee break. Slides for
+              every session are linked below as PDF.
             </p>
           </div>
         </div>

@@ -82,7 +82,7 @@ window.TUTORIAL_DATA = {
         "Contrast with traditional data-driven configuration methods.",
         "Strengths, limitations, and open challenges in deployment.",
       ],
-      slides: null,
+      slides: { file: "slides/IJCAI_tutorial_Ellen.pdf", cover: "slides/cover-solving.jpg", pages: 55, size: "5.5 MB" },
     },
   ],
   objectives: [
