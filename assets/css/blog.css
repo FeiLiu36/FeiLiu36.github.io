@@ -394,3 +394,35 @@ svg.bf .bf-hu-text { fill: var(--bf-accent); }
 .post-entry .entry-link:hover { text-decoration: none; border-color: var(--accent); box-shadow: 0 2px 10px var(--shadow); }
 .post-entry .entry-link:hover .entry-title { color: var(--accent); }
 .post-entry .entry-summary { margin-bottom: 0; }
+
+/* Editorial headings (post page + blog list) */
+.post-meta-top { justify-content: flex-end; }
+.post-header { margin-bottom: 2.5rem; padding-bottom: 1.6rem; }
+.post-title {
+  font-family: var(--serif);
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.9rem;
+}
+.post-dek {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+  margin-bottom: 1.1rem;
+  max-width: 38em;
+}
+.post-meta { font-size: 0.85rem; }
+
+.blog-header h1 { font-family: var(--serif); font-size: 2.6rem; font-weight: 600; letter-spacing: -0.01em; }
+.blog-intro { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--text-soft); }
+.post-entry .entry-title { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.3; margin: 0.15rem 0 0.4rem; }
+.post-entry .entry-summary { font-family: var(--serif); font-size: 1.02rem; line-height: 1.6; }
+
+@media (max-width: 540px) {
+  .post-title, .blog-header h1 { font-size: 2rem; }
+  .post-dek { font-size: 1.08rem; }
+}

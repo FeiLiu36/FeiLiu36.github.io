@@ -24,15 +24,15 @@
 
   <article class="post">
     <header class="post-header">
+      {% if other %}
       <div class="post-meta-top">
-        <span></span>
-        {% if other %}
         <a class="lang-switch" href="{{ other.url | relative_url }}" data-set-lang="{{ other.lang }}" hreflang="{{ other.lang }}">
           <i class="fas fa-language" aria-hidden="true"></i> {% if zh %}English{% else %}中文{% endif %}
         </a>
-        {% endif %}
       </div>
+      {% endif %}
       <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.summary %}<p class="post-dek">{{ page.summary }}</p>{% endif %}
       <p class="post-meta">
         {% if page.author %}<a class="post-author" href="{{ page.author_url | default: '/' | relative_url }}">{{ page.author }}</a> &middot;{% endif %}
         {% if zh %}
