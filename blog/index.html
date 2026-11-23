@@ -1,0 +1,125 @@
+---
+layout: null
+title: Blog
+math: true   # thoughts are rendered in full here and may contain LaTeX
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body class="blog-page">
+
+{% include nav.html %}
+
+<main class="container blog-container">
+  <header class="blog-header">
+    <div class="blog-header-row">
+      <h1 data-en="Blog" data-zh="博客">Blog</h1>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang-btn="zh" aria-pressed="false">中文</button>
+      </div>
+    </div>
+    <p class="blog-intro"
+       data-en="Longer essays and short thoughts on research, optimization, LLMs, and whatever else I'm thinking about. Comments are open on every post."
+       data-zh="关于科研、优化、大模型以及其他话题的长文和短想法。每篇都开放留言，欢迎讨论。">
+      Longer essays and short thoughts on research, optimization, LLMs, and whatever else I'm thinking about. Comments are open on every post.
+    </p>
+    <div class="kind-tabs" role="tablist">
+      <button type="button" role="tab" data-kind-btn="all" aria-selected="true" data-en="All" data-zh="全部">All</button>
+      <button type="button" role="tab" data-kind-btn="essay" aria-selected="false" data-en="Essays" data-zh="文章">Essays</button>
+      <button type="button" role="tab" data-kind-btn="thought" aria-selected="false" data-en="Thoughts" data-zh="想法">Thoughts</button>
+      <a class="rss-link" href="{{ '/blog/feed.xml' | relative_url }}" title="RSS"><i class="fas fa-rss" aria-hidden="true"></i></a>
+    </div>
+  </header>
+
+  <ol class="post-list">
+    {% for post in site.posts %}
+    {% assign zh = false %}{% if post.lang == "zh" %}{% assign zh = true %}{% endif %}
+    {% assign ref = post.ref | default: post.slug %}
+    <li class="post-entry entry-{{ post.kind }}" data-ref="{{ ref }}" data-lang="{{ post.lang }}" data-kind="{{ post.kind }}" lang="{% if zh %}zh-CN{% else %}en{% endif %}">
+      <div class="entry-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{% if zh %}{{ post.date | date: "%Y-%m-%d" }}{% else %}{{ post.date | date: "%b %-d, %Y" }}{% endif %}</time>
+        <span class="kind-badge kind-{{ post.kind }}">
+          {% if post.kind == "thought" %}<i class="fas fa-lightbulb" aria-hidden="true"></i> {% if zh %}想法{% else %}Thought{% endif %}
+          {% else %}<i class="fas fa-pen-nib" aria-hidden="true"></i> {% if zh %}文章{% else %}Essay{% endif %}{% endif %}
+        </span>
+        <span class="lang-note" hidden>{% if zh %}中文{% else %}English{% endif %}</span>
+      </div>
+
+      {% if post.kind == "thought" %}
+        {% if post.title %}<h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>{% endif %}
+        <div class="thought-body post-content">{{ post.content }}</div>
+        <a class="discuss-link" href="{{ post.url | relative_url }}#comments">
+          <i class="far fa-comment" aria-hidden="true"></i> {% if zh %}讨论{% else %}Discuss{% endif %}
+        </a>
+      {% else %}
+        <h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="entry-summary">{{ post.summary | default: post.excerpt | strip_html | truncate: 220 }}</p>
+        {% if post.tags.size > 0 %}
+        <div class="entry-tags">{% for t in post.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+        {% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+
+  <p class="empty-state" hidden data-en="Nothing here yet — check back soon." data-zh="这里还没有内容，敬请期待。">Nothing here yet — check back soon.</p>
+</main>
+
+{% include footer.html %}
+
+<script>
+(function () {
+  'use strict';
+  var entries = Array.prototype.slice.call(document.querySelectorAll('.post-entry'));
+  var state = { lang: 'en', kind: 'all' };
+  try { if (localStorage.getItem('blogLang') === 'zh') state.lang = 'zh'; } catch (e) {}
+  var qLang = new URLSearchParams(location.search).get('lang');   // ?lang=zh for shareable links
+  if (qLang === 'zh' || qLang === 'en') state.lang = qLang;
+
+  function render() {
+    // Group translations by ref; pick the version in the chosen language, else fall back.
+    var groups = {};
+    entries.forEach(function (el) { (groups[el.dataset.ref] = groups[el.dataset.ref] || []).push(el); });
+    var shown = 0;
+    Object.keys(groups).forEach(function (ref) {
+      var g = groups[ref];
+      var pick = g.filter(function (el) { return el.dataset.lang === state.lang; })[0] || g[0];
+      g.forEach(function (el) {
+        var visible = el === pick && (state.kind === 'all' || el.dataset.kind === state.kind);
+        el.hidden = !visible;
+        el.querySelector('.lang-note').hidden = el.dataset.lang === state.lang;
+        if (visible) shown++;
+      });
+    });
+    document.querySelector('.empty-state').hidden = shown > 0;
+
+    document.documentElement.lang = state.lang === 'zh' ? 'zh-CN' : 'en';
+    document.querySelectorAll('[data-en][data-zh]').forEach(function (el) {
+      el.textContent = el.dataset[state.lang];
+    });
+    document.querySelectorAll('[data-lang-btn]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.langBtn === state.lang));
+    });
+    document.querySelectorAll('[data-kind-btn]').forEach(function (b) {
+      b.setAttribute('aria-selected', String(b.dataset.kindBtn === state.kind));
+    });
+  }
+
+  document.querySelectorAll('[data-lang-btn]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      state.lang = b.dataset.langBtn;
+      try { localStorage.setItem('blogLang', state.lang); } catch (e) {}
+      render();
+    });
+  });
+  document.querySelectorAll('[data-kind-btn]').forEach(function (b) {
+    b.addEventListener('click', function () { state.kind = b.dataset.kindBtn; render(); });
+  });
+  render();
+}());
+</script>
+</body>
+</html>

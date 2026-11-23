@@ -1,0 +1,47 @@
+# Jekyll config — used by GitHub Pages to build the /blog section.
+# The homepage (index.html) is plain HTML and is copied through unchanged.
+
+title: Fei Liu
+author: Fei Liu
+description: Blog posts and short thoughts by Fei Liu.
+url: https://feiliu36.github.io
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+permalink: /blog/:year/:title/
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - push.sh
+  - LICENSE
+
+# Front-matter defaults for every post in _posts/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      kind: essay       # essay | thought
+      lang: en          # en | zh
+      comments: true
+
+# ── Comments (Giscus, backed by GitHub Discussions) ──────────────────────────
+# Comments are shown only once category_id is filled in.
+# Get category / category_id from https://giscus.app after enabling Discussions.
+giscus:
+  repo: FeiLiu36/FeiLiu36.github.io
+  repo_id: R_kgDOL4lb1Q
+  category: ""
+  category_id: ""

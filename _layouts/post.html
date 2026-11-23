@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+{% assign zh = false %}{% if page.lang == "zh" %}{% assign zh = true %}{% endif %}
+{% assign ref = page.ref | default: page.slug %}
+{% assign other = nil %}
+{% for p in site.posts %}
+  {% assign pref = p.ref | default: p.slug %}
+  {% if pref == ref and p.lang != page.lang %}{% assign other = p %}{% break %}{% endif %}
+{% endfor %}
+<html lang="{% if zh %}zh-CN{% else %}en{% endif %}">
+<head>
+{% include head.html %}
+{% if other %}
+<link rel="alternate" hreflang="{% if zh %}en{% else %}zh-CN{% endif %}" href="{{ other.url | absolute_url }}">
+{% endif %}
+</head>
+<body class="blog-page">
+
+{% include nav.html %}
+
+<main class="container post-container">
+  <a class="back-link" href="{{ '/blog/' | relative_url }}">
+    <i class="fas fa-arrow-left" aria-hidden="true"></i> {% if zh %}返回博客{% else %}All posts{% endif %}
+  </a>
+
+  <article class="post {% if page.kind == 'thought' %}post-thought{% endif %}">
+    <header class="post-header">
+      <div class="post-meta-top">
+        <span class="kind-badge kind-{{ page.kind }}">
+          {% if page.kind == "thought" %}
+            <i class="fas fa-lightbulb" aria-hidden="true"></i> {% if zh %}想法{% else %}Thought{% endif %}
+          {% else %}
+            <i class="fas fa-pen-nib" aria-hidden="true"></i> {% if zh %}文章{% else %}Essay{% endif %}
+          {% endif %}
+        </span>
+        {% if other %}
+        <a class="lang-switch" href="{{ other.url | relative_url }}" data-set-lang="{{ other.lang }}" hreflang="{{ other.lang }}">
+          <i class="fas fa-language" aria-hidden="true"></i> {% if zh %}English{% else %}中文{% endif %}
+        </a>
+        {% endif %}
+      </div>
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">
+        {% if zh %}
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y 年 %-m 月 %-d 日" }}</time>
+          {% assign chars = content | strip_html | strip_newlines | size %}
+          {% assign mins = chars | divided_by: 400 | plus: 1 %}
+          &middot; 约 {{ mins }} 分钟阅读
+        {% else %}
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+          {% assign words = content | number_of_words %}
+          {% assign mins = words | divided_by: 220 | plus: 1 %}
+          &middot; {{ mins }} min read
+        {% endif %}
+        {% if page.tags.size > 0 %}
+          &middot;
+          {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+        {% endif %}
+      </p>
+    </header>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+
+  {% if page.comments and site.giscus.category_id != "" %}
+  <section id="comments" class="comments" aria-label="{% if zh %}留言{% else %}Comments{% endif %}">
+    <h2 class="comments-title">{% if zh %}留言{% else %}Comments{% endif %}</h2>
+    <p class="comments-hint">
+      {% if zh %}欢迎讨论、提问或反驳。登录 GitHub 即可留言，也可以直接到 <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a> 参与。
+      {% else %}Questions, disagreements and ideas are all welcome. Sign in with GitHub to comment, or join on <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a>.{% endif %}
+    </p>
+    <script src="https://giscus.app/client.js"
+      data-repo="{{ site.giscus.repo }}"
+      data-repo-id="{{ site.giscus.repo_id }}"
+      data-category="{{ site.giscus.category }}"
+      data-category-id="{{ site.giscus.category_id }}"
+      data-mapping="specific"
+      data-term="{{ ref }}"
+      data-strict="1"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="{% if zh %}zh-CN{% else %}en{% endif %}"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </section>
+  {% endif %}
+</main>
+
+{% include footer.html %}
+<script>
+  // Remember the reader's language choice for the blog index.
+  document.querySelectorAll('[data-set-lang]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      try { localStorage.setItem('blogLang', a.dataset.setLang); } catch (e) {}
+    });
+  });
+</script>
+</body>
+</html>
