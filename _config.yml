@@ -43,5 +43,5 @@ defaults:
 giscus:
   repo: FeiLiu36/FeiLiu36.github.io
   repo_id: R_kgDOL4lb1Q
-  category: ""
-  category_id: ""
+  category: "Blog Comments"
+  category_id: "DIC_kwDOL4lb1c4DLzew"
