@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Theme: apply before first paint (stored choice, else OS setting) -->
+  <script>(function(){var t;try{t=localStorage.getItem('theme');}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}());</script>
   <title>Fei Liu — Postdoc Researcher, UZH &amp; ETH Zurich</title>
   <meta name="description" content="Fei Liu is a Postdoc researcher at the University of Zurich and ETH Zurich working on automated algorithm design, LLMs for optimization, and AI.">
 
@@ -50,6 +52,10 @@
       <li><a href="#education"    data-section="education">Education</a></li>
       <li><a href="blog/">Blog</a></li>
     </ul>
+    <button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <i class="fas fa-moon icon-moon" aria-hidden="true"></i>
+      <i class="fas fa-sun icon-sun" aria-hidden="true"></i>
+    </button>
   </div>
 </nav>
 

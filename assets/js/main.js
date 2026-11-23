@@ -19,6 +19,51 @@
   window.addEventListener('scroll', updateActive, { passive: true });
   updateActive();
 
+  // ── Light / dark theme ────────────────────────────────────────────────────
+  // The initial theme is set by an inline script in <head> to avoid a flash.
+  const root        = document.documentElement;
+  const themeBtn    = document.getElementById('theme-toggle');
+  const darkQuery   = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+  function syncGiscus(theme) {
+    const frame = document.querySelector('iframe.giscus-frame');
+    if (frame) {
+      frame.contentWindow.postMessage(
+        { giscus: { setConfig: { theme: theme === 'dark' ? 'dark' : 'light' } } },
+        'https://giscus.app'
+      );
+    }
+  }
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (themeBtn) {
+      const label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      themeBtn.setAttribute('aria-label', label);
+      themeBtn.title = label;
+    }
+    syncGiscus(theme);
+  }
+
+  applyTheme(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function () {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      applyTheme(next);
+    });
+  }
+
+  // Follow OS changes until the visitor makes an explicit choice.
+  if (darkQuery && darkQuery.addEventListener) {
+    darkQuery.addEventListener('change', function (e) {
+      let stored = null;
+      try { stored = localStorage.getItem('theme'); } catch (err) {}
+      if (stored !== 'light' && stored !== 'dark') applyTheme(e.matches ? 'dark' : 'light');
+    });
+  }
+
   // ── Mobile menu toggle ────────────────────────────────────────────────────
   const toggle  = document.getElementById('menu-toggle');
   const navList = document.getElementById('nav-links');

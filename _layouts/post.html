@@ -70,22 +70,32 @@
       {% if zh %}欢迎讨论、提问或反驳。登录 GitHub 即可留言，也可以直接到 <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a> 参与。
       {% else %}Questions, disagreements and ideas are all welcome. Sign in with GitHub to comment, or join on <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a>.{% endif %}
     </p>
-    <script src="https://giscus.app/client.js"
-      data-repo="{{ site.giscus.repo }}"
-      data-repo-id="{{ site.giscus.repo_id }}"
-      data-category="{{ site.giscus.category }}"
-      data-category-id="{{ site.giscus.category_id }}"
-      data-mapping="specific"
-      data-term="{{ ref }}"
-      data-strict="1"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="light"
-      data-lang="{% if zh %}zh-CN{% else %}en{% endif %}"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async>
+    <div class="giscus"></div>
+    <script>
+      // Load Giscus with the current light/dark theme; main.js keeps it in sync on toggle.
+      (function () {
+        var s = document.createElement('script');
+        var attrs = {
+          'data-repo': {{ site.giscus.repo | jsonify }},
+          'data-repo-id': {{ site.giscus.repo_id | jsonify }},
+          'data-category': {{ site.giscus.category | jsonify }},
+          'data-category-id': {{ site.giscus.category_id | jsonify }},
+          'data-mapping': 'specific',
+          'data-term': {{ ref | jsonify }},
+          'data-strict': '1',
+          'data-reactions-enabled': '1',
+          'data-emit-metadata': '0',
+          'data-input-position': 'top',
+          'data-theme': document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light',
+          'data-lang': '{% if zh %}zh-CN{% else %}en{% endif %}',
+          'data-loading': 'lazy'
+        };
+        s.src = 'https://giscus.app/client.js';
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        Object.keys(attrs).forEach(function (k) { s.setAttribute(k, attrs[k]); });
+        document.currentScript.parentNode.appendChild(s);
+      }());
     </script>
   </section>
   {% endif %}
