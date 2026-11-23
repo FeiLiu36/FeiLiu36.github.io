@@ -1,11 +1,11 @@
 ---
 # Copy to _posts/YYYY-MM-DD-your-slug.md to publish.
-title: "Essay title"
+title: "Post title"
 date: 2026-01-01
-kind: essay            # essay | thought
 lang: en               # en | zh
 ref: your-slug         # same ref on the EN and ZH versions -> linked + shared comments
-tags: [optimization, llm]
+author: Fei Liu          # shown under the title, links to the homepage
+# reading_time: 10      # optional: override the estimated reading time
 summary: "One or two sentences shown in the blog list."
 math: false            # true to enable LaTeX ($...$, $$...$$)
 comments: true

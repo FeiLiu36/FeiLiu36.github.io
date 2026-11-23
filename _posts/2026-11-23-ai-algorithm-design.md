@@ -1,7 +1,6 @@
 ---
 title: "What Is Left for Humans in Algorithm Design?"
 date: 2026-11-23
-kind: essay
 lang: en
 ref: ai-algorithm-design
 author: Fei Liu

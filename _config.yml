@@ -33,7 +33,6 @@ defaults:
       type: posts
     values:
       layout: post
-      kind: essay       # essay | thought
       lang: en          # en | zh
       comments: true
 
