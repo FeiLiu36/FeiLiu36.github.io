@@ -1,0 +1,125 @@
+<svg class="bf " viewBox="0 0 760 376" role="img" aria-labelledby="f3t-zh f3d-zh" xmlns="http://www.w3.org/2000/svg">
+<title id="f3t-zh">各领域达到的阶段与实际应用</title><desc id="f3d-zh">八个领域中 AI 参与算法设计达到的最高阶段（与图 1 一致），以及 AI 设计的算法已部署或进入软件的情况。多数领域处于第三阶段；每个应用领域都有公开的部署证据，MIP 求解器部件在第二阶段，其余在第三阶段。</desc>
+<text x="318" y="30" class="bf-colhead" style="text-anchor:middle">1</text>
+<text x="368" y="30" class="bf-colhead" style="text-anchor:middle">2</text>
+<text x="418" y="30" class="bf-colhead" style="text-anchor:middle">3</text>
+<text x="468" y="30" class="bf-colhead" style="text-anchor:middle">4</text>
+<text x="518" y="30" class="bf-colhead" style="text-anchor:middle">5</text>
+<text x="296" y="30" class="bf-colhead" style="text-anchor:end">阶段</text>
+<text x="554" y="30" class="bf-colhead" style="text-anchor:start">已部署或已进入软件</text>
+<line x1="10" y1="40" x2="750" y2="40" class="bf-rule"/>
+<g class="bf-row"><title>MIP 求解器部件: 阶段 2，阶段 3 早期信号；已部署或进入软件：阶段 2（CPLEX、FICO Xpress）. 人仍需提供：求解器、目标部件、实例</title>
+<rect x="10" y="49" width="740" height="34" class="bf-hit"/>
+<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP 求解器部件</text>
+<circle cx="318" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="66" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="66" x2="368" y2="66" class="bf-stem"/>
+<line x1="368" y1="66" x2="418" y2="66" class="bf-stem-early"/>
+<circle cx="418" cy="66" r="5" class="bf-ball-empty"/>
+<circle cx="368" cy="66" r="5" class="bf-ball-full"/>
+<circle cx="368" cy="66" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="71" class="bf-label" style="text-anchor:start">CPLEX、FICO Xpress</text>
+</g>
+<g class="bf-row"><title>优化建模: 阶段 3，阶段 4 早期信号；已部署或进入软件：阶段 3（微软 OptiGuide、OptiMind）. 人仍需提供：文字描述的问题、参考答案</title>
+<rect x="10" y="83" width="740" height="34" class="bf-hit"/>
+<text x="14" y="105" class="bf-label" style="text-anchor:start">优化建模</text>
+<circle cx="318" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="100" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="100" x2="418" y2="100" class="bf-stem"/>
+<line x1="418" y1="100" x2="468" y2="100" class="bf-stem-early"/>
+<circle cx="468" cy="100" r="5" class="bf-ball-empty"/>
+<circle cx="418" cy="100" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="100" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="105" class="bf-label" style="text-anchor:start">微软 OptiGuide、OptiMind</text>
+</g>
+<g class="bf-row"><title>组合优化启发式: 阶段 3；已部署或进入软件：阶段 3（Google Borg 调度）. 人仍需提供：评估器、实例、代码模板</title>
+<rect x="10" y="117" width="740" height="34" class="bf-hit"/>
+<text x="14" y="139" class="bf-label" style="text-anchor:start">组合优化启发式</text>
+<circle cx="318" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="134" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="134" x2="418" y2="134" class="bf-stem"/>
+<circle cx="418" cy="134" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="134" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="139" class="bf-label" style="text-anchor:start">Google Borg 调度</text>
+</g>
+<g class="bf-row"><title>工业运营: 阶段 3；已部署或进入软件：阶段 3（FM Logistic 仓库）. 人仍需提供：初始算法、目标、数据</title>
+<rect x="10" y="151" width="740" height="34" class="bf-hit"/>
+<text x="14" y="173" class="bf-label" style="text-anchor:start">工业运营</text>
+<circle cx="318" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="168" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="168" x2="418" y2="168" class="bf-stem"/>
+<circle cx="418" cy="168" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="168" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="173" class="bf-label" style="text-anchor:start">FM Logistic 仓库</text>
+</g>
+<g class="bf-row"><title>连续优化算法: 阶段 3；已部署或进入软件：阶段 3（Lion 优化器、Google 广告）. 人仍需提供：基准测试集与预算</title>
+<rect x="10" y="185" width="740" height="34" class="bf-hit"/>
+<text x="14" y="207" class="bf-label" style="text-anchor:start">连续优化算法</text>
+<circle cx="318" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="202" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="202" x2="418" y2="202" class="bf-stem"/>
+<circle cx="418" cy="202" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="202" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="207" class="bf-label" style="text-anchor:start">Lion 优化器、Google 广告</text>
+</g>
+<g class="bf-row"><title>机器学习训练与内核: 阶段 3；已部署或进入软件：阶段 3（Gemini 训练、Meta）. 人仍需提供：内核代码、正确性检查、计时</title>
+<rect x="10" y="219" width="740" height="34" class="bf-hit"/>
+<text x="14" y="241" class="bf-label" style="text-anchor:start">机器学习训练与内核</text>
+<circle cx="318" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="236" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="236" x2="418" y2="236" class="bf-stem"/>
+<circle cx="418" cy="236" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="236" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="241" class="bf-label" style="text-anchor:start">Gemini 训练、Meta</text>
+</g>
+<g class="bf-row"><title>系统与底层代码: 阶段 3；已部署或进入软件：阶段 3（TPU 电路、libc++ 排序）. 人仍需提供：正确性检查、模拟器</title>
+<rect x="10" y="253" width="740" height="34" class="bf-hit"/>
+<text x="14" y="275" class="bf-label" style="text-anchor:start">系统与底层代码</text>
+<circle cx="318" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="270" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="270" x2="418" y2="270" class="bf-stem"/>
+<circle cx="418" cy="270" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="270" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="275" class="bf-label" style="text-anchor:start">TPU 电路、libc++ 排序</text>
+</g>
+<g class="bf-row"><title>数学发现: 阶段 3. 人仍需提供：每个问题的验证器</title>
+<rect x="10" y="287" width="740" height="34" class="bf-hit"/>
+<text x="14" y="309" class="bf-label" style="text-anchor:start">数学发现</text>
+<circle cx="318" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="304" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="304" x2="418" y2="304" class="bf-stem"/>
+<circle cx="418" cy="304" r="5" class="bf-ball-full"/>
+<text x="554" y="309" class="bf-label bf-muted" style="text-anchor:start">不适用</text>
+</g>
+<line x1="10" y1="328" x2="750" y2="328" class="bf-rule"/>
+<line x1="16" y1="346" x2="34" y2="346" class="bf-stem"/><circle cx="34" cy="346" r="5" class="bf-ball-full"/>
+<text x="46" y="350" class="bf-small bf-muted" style="text-anchor:start">已有明确证据</text>
+<line x1="160" y1="346" x2="178" y2="346" class="bf-stem-early"/><circle cx="178" cy="346" r="5" class="bf-ball-empty"/>
+<text x="190" y="350" class="bf-small bf-muted" style="text-anchor:start">早期信号</text>
+<circle cx="346" cy="346" r="5" class="bf-ball-full"/><circle cx="346" cy="346" r="9.5" class="bf-prod-ring"/>
+<text x="362" y="350" class="bf-small bf-muted" style="text-anchor:start">已部署或已进入软件（有公开证据）</text>
+</svg>

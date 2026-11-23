@@ -1,0 +1,70 @@
+<svg class="bf " viewBox="0 0 760 370" role="img" aria-labelledby="f1t-zh f1d-zh" xmlns="http://www.w3.org/2000/svg">
+<title id="f1t-zh">AI 参与算法设计的五个阶段</title><desc id="f1d-zh">五个设计层次在五个阶段中由 AI 设计或由人提供。AI 负责的层次逐阶段上移：人依次提供算法、算法框架、评估与知识、目标，到第五阶段几乎无需提供。我们目前处于第三阶段。</desc>
+<rect x="410" y="2" width="118" height="366" class="bf-band"/>
+<text x="241" y="16" class="bf-small bf-muted" style="text-anchor:middle">阶段 1</text>
+<text x="241" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">调参</text>
+<rect x="190" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="148" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="186" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="241" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">算法</text>
+<text x="355" y="16" class="bf-small bf-muted" style="text-anchor:middle">阶段 2</text>
+<text x="355" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">部件设计</text>
+<rect x="304" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="148" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="186" width="102" height="28" class="bf-cell-ai"/>
+<rect x="304" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="355" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">算法框架与流程</text>
+<text x="469" y="16" class="bf-small bf-muted" style="text-anchor:middle">阶段 3</text>
+<text x="469" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">智能体设计</text>
+<rect x="418" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="418" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="418" y="148" width="102" height="28" class="bf-cell-ai"/>
+<rect x="418" y="186" width="102" height="28" class="bf-cell-ai"/>
+<rect x="418" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="469" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">评估手段与</text>
+<text x="469" y="301" class="bf-label bf-hu-text" style="text-anchor:middle">知识参考</text>
+<text x="583" y="16" class="bf-small bf-muted" style="text-anchor:middle">阶段 4</text>
+<text x="583" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">自主求解</text>
+<text x="583" y="56" class="bf-note bf-tag" style="text-anchor:middle">正在出现</text>
+<rect x="532" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="532" y="110" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="148" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="186" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="224" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<text x="583" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">目标</text>
+<text x="697" y="16" class="bf-small bf-muted" style="text-anchor:middle">阶段 5</text>
+<text x="697" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">自主创造</text>
+<rect x="646" y="72" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="110" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="148" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="186" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="224" width="102" height="28" class="bf-cell-ai bf-future"/>
+<text x="697" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">几乎无需提供</text>
+<text x="178" y="91" class="bf-label" style="text-anchor:end">目标</text>
+<text x="178" y="129" class="bf-label" style="text-anchor:end">评估与知识</text>
+<text x="178" y="167" class="bf-label" style="text-anchor:end">算法框架与流程</text>
+<text x="178" y="205" class="bf-label" style="text-anchor:end">算法部件</text>
+<text x="178" y="243" class="bf-label" style="text-anchor:end">参数</text>
+<text x="178" y="284" class="bf-note bf-hu-text" style="text-anchor:end">人提供</text>
+<path class="bf-stair" d="M 180 219 L 299 219 L 297 181 L 413 181 L 411 143 L 527 143 L 525 105 L 641 105 L 639 67 L 755 67"/>
+<rect x="8" y="9" width="12" height="12" class="bf-cell-ai"/>
+<text x="26" y="20" class="bf-small bf-muted" style="text-anchor:start">AI 设计</text>
+<rect x="8" y="30" width="12" height="12" class="bf-cell-hu"/>
+<text x="26" y="41" class="bf-small bf-muted" style="text-anchor:start">人提供</text>
+<line x1="180" y1="334" x2="756" y2="334" class="bf-axis"/>
+<path d="M758,334 l-7,-3.5 v7 z" class="bf-axis-head"/>
+<text x="241" y="356" class="bf-small bf-muted" style="text-anchor:middle">1950 年代</text>
+<line x1="297" y1="330" x2="297" y2="338" class="bf-axis"/>
+<text x="355" y="356" class="bf-small bf-muted" style="text-anchor:middle">1980 年代</text>
+<line x1="411" y1="330" x2="411" y2="338" class="bf-axis"/>
+<text x="469" y="356" class="bf-small bf-muted" style="text-anchor:middle">2025 年</text>
+<line x1="525" y1="330" x2="525" y2="338" class="bf-axis"/>
+<text x="583" y="356" class="bf-small bf-muted" style="text-anchor:middle">约 2030 年</text>
+<line x1="639" y1="330" x2="639" y2="338" class="bf-axis"/>
+<text x="697" y="356" class="bf-small bf-muted" style="text-anchor:middle">2030 年以后</text>
+<circle cx="433.8" cy="334" r="4" class="bf-now"/>
+<text x="433.8" y="324" class="bf-annot" style="text-anchor:middle">现在</text>
+</svg>

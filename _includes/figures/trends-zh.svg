@@ -1,0 +1,73 @@
+<svg class="bf " viewBox="0 0 760 408" role="img" aria-labelledby="f4t-zh f4d-zh" xmlns="http://www.w3.org/2000/svg">
+<title id="f4t-zh">单次运行更重，失败方式更多</title><desc id="f4d-zh">(a) 单次运行时长：EoH 约 1 小时，ALE-Agent 4 小时，AI Scientist-v2 最长 15 小时，Darwin Gödel Machine 约 2 周。(b) 报告的错误与作弊率：AI Scientist 42%，Kosmos 20.6%，o3 30.4%，GPT-5 54%。</desc>
+<text x="10" y="16" class="bf-head-s" style="text-anchor:start">(a) 单次运行的时长</text>
+<text x="10" y="34" class="bf-note" style="text-anchor:start">对数坐标</text>
+<line x1="240" y1="48" x2="240" y2="172" class="bf-grid"/>
+<text x="240" y="188" class="bf-small bf-muted bf-num" style="text-anchor:middle">10 分钟</text>
+<line x1="320.485" y1="48" x2="320.485" y2="172" class="bf-grid"/>
+<text x="320.485" y="188" class="bf-small bf-muted bf-num" style="text-anchor:middle">1 小时</text>
+<line x1="463.242" y1="48" x2="463.242" y2="172" class="bf-grid"/>
+<text x="463.242" y="188" class="bf-small bf-muted bf-num" style="text-anchor:middle">1 天</text>
+<line x1="550.651" y1="48" x2="550.651" y2="172" class="bf-grid"/>
+<text x="550.651" y="188" class="bf-small bf-muted bf-num" style="text-anchor:middle">1 周</text>
+<g class="bf-row"><title>EoH: 约 1 小时</title>
+<text x="226" y="63" class="bf-label" style="text-anchor:end">EoH</text>
+<line x1="240" y1="58" x2="320.485" y2="58" class="bf-leader"/>
+<circle cx="320.485" cy="58" r="6" class="bf-ball-full"/>
+<text x="332.485" y="63" class="bf-value" style="text-anchor:start">约 1 小时</text>
+</g>
+<g class="bf-row"><title>ALE-Agent (AHC058): 4 小时</title>
+<text x="226" y="95" class="bf-label" style="text-anchor:end">ALE-Agent (AHC058)</text>
+<line x1="240" y1="90" x2="382.757" y2="90" class="bf-leader"/>
+<circle cx="382.757" cy="90" r="6" class="bf-ball-full"/>
+<text x="394.757" y="95" class="bf-value" style="text-anchor:start">4 小时</text>
+</g>
+<g class="bf-row"><title>AI Scientist-v2: 最长 15 小时</title>
+<text x="226" y="127" class="bf-label" style="text-anchor:end">AI Scientist-v2</text>
+<line x1="240" y1="122" x2="442.129" y2="122" class="bf-leader"/>
+<circle cx="442.129" cy="122" r="6" class="bf-ball-full"/>
+<text x="454.129" y="127" class="bf-value" style="text-anchor:start">最长 15 小时</text>
+</g>
+<g class="bf-row"><title>Darwin Gödel Machine: 约 2 周</title>
+<text x="226" y="159" class="bf-label" style="text-anchor:end">Darwin Gödel Machine</text>
+<line x1="240" y1="154" x2="581.787" y2="154" class="bf-leader"/>
+<circle cx="581.787" cy="154" r="6" class="bf-ball-full"/>
+<text x="593.787" y="159" class="bf-value" style="text-anchor:start">约 2 周</text>
+</g>
+<text x="10" y="218" class="bf-head-s" style="text-anchor:start">(b) 错误与作弊率</text>
+<text x="10" y="236" class="bf-note" style="text-anchor:start">高度自动化系统中报告的比例</text>
+<line x1="240" y1="250" x2="240" y2="374" class="bf-grid"/>
+<text x="240" y="390" class="bf-small bf-muted bf-num" style="text-anchor:middle">0%</text>
+<line x1="330" y1="250" x2="330" y2="374" class="bf-grid"/>
+<text x="330" y="390" class="bf-small bf-muted bf-num" style="text-anchor:middle">25%</text>
+<line x1="420" y1="250" x2="420" y2="374" class="bf-grid"/>
+<text x="420" y="390" class="bf-small bf-muted bf-num" style="text-anchor:middle">50%</text>
+<line x1="510" y1="250" x2="510" y2="374" class="bf-grid"/>
+<text x="510" y="390" class="bf-small bf-muted bf-num" style="text-anchor:middle">75%</text>
+<line x1="600" y1="250" x2="600" y2="374" class="bf-grid"/>
+<text x="600" y="390" class="bf-small bf-muted bf-num" style="text-anchor:middle">100%</text>
+<g class="bf-row"><title>AI Scientist: 42%, 实验因代码错误失败</title>
+<text x="226" y="265" class="bf-label" style="text-anchor:end">AI Scientist</text>
+<line x1="240" y1="260" x2="391.2" y2="260" class="bf-leader"/>
+<circle cx="391.2" cy="260" r="6" class="bf-ball-accent"/>
+<text x="403.2" y="265" class="bf-value" style="text-anchor:start">42%  ·  实验因代码错误失败</text>
+</g>
+<g class="bf-row"><title>Kosmos: 20.6%, 结论不准确</title>
+<text x="226" y="297" class="bf-label" style="text-anchor:end">Kosmos</text>
+<line x1="240" y1="292" x2="314.16" y2="292" class="bf-leader"/>
+<circle cx="314.16" cy="292" r="6" class="bf-ball-accent"/>
+<text x="326.16" y="297" class="bf-value" style="text-anchor:start">20.6%  ·  结论不准确</text>
+</g>
+<g class="bf-row"><title>o3 on RE-Bench: 30.4%, 奖励作弊</title>
+<text x="226" y="329" class="bf-label" style="text-anchor:end">o3 on RE-Bench</text>
+<line x1="240" y1="324" x2="349.44" y2="324" class="bf-leader"/>
+<circle cx="349.44" cy="324" r="6" class="bf-ball-accent"/>
+<text x="361.44" y="329" class="bf-value" style="text-anchor:start">30.4%  ·  奖励作弊</text>
+</g>
+<g class="bf-row"><title>GPT-5 on ImpossibleBench: 54%, 作弊</title>
+<text x="226" y="361" class="bf-label" style="text-anchor:end">GPT-5 on ImpossibleBench</text>
+<line x1="240" y1="356" x2="434.4" y2="356" class="bf-leader"/>
+<circle cx="434.4" cy="356" r="6" class="bf-ball-accent"/>
+<text x="446.4" y="361" class="bf-value" style="text-anchor:start">54%  ·  作弊</text>
+</g>
+</svg>

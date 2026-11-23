@@ -1,0 +1,70 @@
+<svg class="bf " viewBox="0 0 760 370" role="img" aria-labelledby="f1t-en f1d-en" xmlns="http://www.w3.org/2000/svg">
+<title id="f1t-en">Five stages of AI in algorithm design</title><desc id="f1d-en">Five layers of an algorithm-design task across five stages. The layers designed by AI move up stage by stage: humans provide the algorithm, then the framework, then evaluation and knowledge, then only the goal, and in Stage 5 almost nothing. We are currently in Stage 3.</desc>
+<rect x="410" y="2" width="118" height="366" class="bf-band"/>
+<text x="241" y="16" class="bf-small bf-muted" style="text-anchor:middle">Stage 1</text>
+<text x="241" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">Tuning</text>
+<rect x="190" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="148" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="186" width="102" height="28" class="bf-cell-hu"/>
+<rect x="190" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="241" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">the algorithm</text>
+<text x="355" y="16" class="bf-small bf-muted" style="text-anchor:middle">Stage 2</text>
+<text x="355" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">Components</text>
+<rect x="304" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="148" width="102" height="28" class="bf-cell-hu"/>
+<rect x="304" y="186" width="102" height="28" class="bf-cell-ai"/>
+<rect x="304" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="355" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">the framework</text>
+<text x="469" y="16" class="bf-small bf-muted" style="text-anchor:middle">Stage 3</text>
+<text x="469" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">Agentic design</text>
+<rect x="418" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="418" y="110" width="102" height="28" class="bf-cell-hu"/>
+<rect x="418" y="148" width="102" height="28" class="bf-cell-ai"/>
+<rect x="418" y="186" width="102" height="28" class="bf-cell-ai"/>
+<rect x="418" y="224" width="102" height="28" class="bf-cell-ai"/>
+<text x="469" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">evaluation &amp;</text>
+<text x="469" y="301" class="bf-label bf-hu-text" style="text-anchor:middle">knowledge</text>
+<text x="583" y="16" class="bf-small bf-muted" style="text-anchor:middle">Stage 4</text>
+<text x="583" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">Autonomous</text>
+<text x="583" y="56" class="bf-note bf-tag" style="text-anchor:middle">emerging</text>
+<rect x="532" y="72" width="102" height="28" class="bf-cell-hu"/>
+<rect x="532" y="110" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="148" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="186" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<rect x="532" y="224" width="102" height="28" class="bf-cell-ai bf-emerging"/>
+<text x="583" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">the goal</text>
+<text x="697" y="16" class="bf-small bf-muted" style="text-anchor:middle">Stage 5</text>
+<text x="697" y="38" class="bf-head bf-head-fit" style="text-anchor:middle">Creation</text>
+<rect x="646" y="72" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="110" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="148" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="186" width="102" height="28" class="bf-cell-ai bf-future"/>
+<rect x="646" y="224" width="102" height="28" class="bf-cell-ai bf-future"/>
+<text x="697" y="284" class="bf-label bf-hu-text" style="text-anchor:middle">almost nothing</text>
+<text x="178" y="91" class="bf-label" style="text-anchor:end">Goal</text>
+<text x="178" y="129" class="bf-label" style="text-anchor:end">Evaluation &amp; knowledge</text>
+<text x="178" y="167" class="bf-label" style="text-anchor:end">Framework &amp; procedure</text>
+<text x="178" y="205" class="bf-label" style="text-anchor:end">Components</text>
+<text x="178" y="243" class="bf-label" style="text-anchor:end">Parameters</text>
+<text x="178" y="284" class="bf-note bf-hu-text" style="text-anchor:end">Humans provide</text>
+<path class="bf-stair" d="M 180 219 L 299 219 L 297 181 L 413 181 L 411 143 L 527 143 L 525 105 L 641 105 L 639 67 L 755 67"/>
+<rect x="8" y="9" width="12" height="12" class="bf-cell-ai"/>
+<text x="26" y="20" class="bf-small bf-muted" style="text-anchor:start">Designed by AI</text>
+<rect x="8" y="30" width="12" height="12" class="bf-cell-hu"/>
+<text x="26" y="41" class="bf-small bf-muted" style="text-anchor:start">Provided by humans</text>
+<line x1="180" y1="334" x2="756" y2="334" class="bf-axis"/>
+<path d="M758,334 l-7,-3.5 v7 z" class="bf-axis-head"/>
+<text x="241" y="356" class="bf-small bf-muted" style="text-anchor:middle">from 1950s</text>
+<line x1="297" y1="330" x2="297" y2="338" class="bf-axis"/>
+<text x="355" y="356" class="bf-small bf-muted" style="text-anchor:middle">from 1980s</text>
+<line x1="411" y1="330" x2="411" y2="338" class="bf-axis"/>
+<text x="469" y="356" class="bf-small bf-muted" style="text-anchor:middle">from 2025</text>
+<line x1="525" y1="330" x2="525" y2="338" class="bf-axis"/>
+<text x="583" y="356" class="bf-small bf-muted" style="text-anchor:middle">from ~2030</text>
+<line x1="639" y1="330" x2="639" y2="338" class="bf-axis"/>
+<text x="697" y="356" class="bf-small bf-muted" style="text-anchor:middle">after 2030</text>
+<circle cx="433.8" cy="334" r="4" class="bf-now"/>
+<text x="433.8" y="324" class="bf-annot" style="text-anchor:middle">now</text>
+</svg>

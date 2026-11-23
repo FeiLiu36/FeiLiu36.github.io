@@ -40,15 +40,16 @@
       </div>
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-meta">
+        {% if page.author %}<a class="post-author" href="{{ page.author_url | default: '/' | relative_url }}">{{ page.author }}</a> &middot;{% endif %}
         {% if zh %}
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y 年 %-m 月 %-d 日" }}</time>
           {% assign chars = content | strip_html | strip_newlines | size %}
-          {% assign mins = chars | divided_by: 400 | plus: 1 %}
+          {% if page.reading_time %}{% assign mins = page.reading_time %}{% else %}{% assign mins = chars | divided_by: 400 | plus: 1 %}{% endif %}
           &middot; 约 {{ mins }} 分钟阅读
         {% else %}
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
           {% assign words = content | number_of_words %}
-          {% assign mins = words | divided_by: 220 | plus: 1 %}
+          {% if page.reading_time %}{% assign mins = page.reading_time %}{% else %}{% assign mins = words | divided_by: 220 | plus: 1 %}{% endif %}
           &middot; {{ mins }} min read
         {% endif %}
         {% if page.tags.size > 0 %}
@@ -67,8 +68,8 @@
   <section id="comments" class="comments" aria-label="{% if zh %}留言{% else %}Comments{% endif %}">
     <h2 class="comments-title">{% if zh %}留言{% else %}Comments{% endif %}</h2>
     <p class="comments-hint">
-      {% if zh %}欢迎讨论、提问或反驳。登录 GitHub 即可留言，也可以直接到 <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a> 参与。
-      {% else %}Questions, disagreements and ideas are all welcome. Sign in with GitHub to comment, or join on <a href="https://github.com/{{ site.giscus.repo }}/discussions" target="_blank" rel="noopener">GitHub Discussions</a>.{% endif %}
+      {% if zh %}欢迎留言，需要一个 GitHub 账号。
+      {% else %}Feel free to leave a comment. You'll need a GitHub account.{% endif %}
     </p>
     <div class="giscus"></div>
     <script>
@@ -83,7 +84,7 @@
           'data-mapping': 'specific',
           'data-term': {{ ref | jsonify }},
           'data-strict': '1',
-          'data-reactions-enabled': '1',
+          'data-reactions-enabled': '0',
           'data-emit-metadata': '0',
           'data-input-position': 'top',
           'data-theme': document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light',

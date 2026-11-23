@@ -1,0 +1,119 @@
+<svg class="bf " viewBox="0 0 760 496" role="img" aria-labelledby="f2t-en f2d-en" xmlns="http://www.w3.org/2000/svg">
+<title id="f2t-en">Who does each phase of algorithm design</title><desc id="f2d-en">For 13 representative systems, whether conception, design and evaluation are done by humans, shared, or by AI. Design is mostly done by AI, conception almost entirely by humans, and evaluation by humans in most systems.</desc>
+<text x="476" y="32" class="bf-colhead" style="text-anchor:middle">Conception</text>
+<text x="580" y="32" class="bf-colhead" style="text-anchor:middle">Design</text>
+<text x="684" y="32" class="bf-colhead" style="text-anchor:middle">Evaluation</text>
+<line x1="10" y1="44" x2="750" y2="44" class="bf-rule"/>
+<g class="bf-row"><title>Algorithm configuration: Humans design the algorithm and supply its parameter space, instances and cost metric; AI only picks parameter values.</title>
+<rect x="10" y="43" width="740" height="30" class="bf-hit"/>
+<text x="14" y="61" class="bf-small bf-muted bf-num" style="text-anchor:start">2009–16</text>
+<text x="86" y="61" class="bf-label" style="text-anchor:start">Algorithm configuration</text>
+<circle cx="476" cy="56" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="56" r="8" class="bf-ball-empty"/>
+<circle cx="684" cy="56" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>Learned branching: A network learns the branching rule inside a human-built branch-and-bound solver.</title>
+<rect x="10" y="73" width="740" height="30" class="bf-hit"/>
+<text x="14" y="91" class="bf-small bf-muted bf-num" style="text-anchor:start">2019</text>
+<text x="86" y="91" class="bf-label" style="text-anchor:start">Learned branching</text>
+<circle cx="476" cy="86" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="86" r="8" class="bf-ball-empty"/><path d="M580,78 A8,8 0 0 0 580,94 Z" class="bf-ball-half"/>
+<circle cx="684" cy="86" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>Neural solver: Humans design the network and training; the model learns a construction policy for routing problems.</title>
+<rect x="10" y="103" width="740" height="30" class="bf-hit"/>
+<text x="14" y="121" class="bf-small bf-muted bf-num" style="text-anchor:start">2019</text>
+<text x="86" y="121" class="bf-label" style="text-anchor:start">Neural solver</text>
+<circle cx="476" cy="116" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="116" r="8" class="bf-ball-empty"/><path d="M580,108 A8,8 0 0 0 580,124 Z" class="bf-ball-half"/>
+<circle cx="684" cy="116" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>EoH: Humans choose the problem and give the function signature, task description and fitness instances; the LLM explicitly proposes and evolves algorithmic ideas (“thoughts”) alongside the code.</title>
+<rect x="10" y="133" width="740" height="30" class="bf-hit"/>
+<text x="14" y="151" class="bf-small bf-muted bf-num" style="text-anchor:start">2024</text>
+<text x="86" y="151" class="bf-label" style="text-anchor:start">EoH</text>
+<circle cx="476" cy="146" r="8" class="bf-ball-empty"/><path d="M476,138 A8,8 0 0 0 476,154 Z" class="bf-ball-half"/>
+<circle cx="580" cy="146" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="146" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>OptiMUS: Human gives the problem in natural language; the agent formulates, codes, debugs and checks.</title>
+<rect x="10" y="163" width="740" height="30" class="bf-hit"/>
+<text x="14" y="181" class="bf-small bf-muted bf-num" style="text-anchor:start">2024</text>
+<text x="86" y="181" class="bf-label" style="text-anchor:start">OptiMUS</text>
+<circle cx="476" cy="176" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="176" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="176" r="8" class="bf-ball-empty"/><path d="M684,168 A8,8 0 0 0 684,184 Z" class="bf-ball-half"/>
+</g>
+<g class="bf-row"><title>The AI Scientist: Human provides a code template and 1–2 seed ideas; an LLM reviewer evaluates.</title>
+<rect x="10" y="193" width="740" height="30" class="bf-hit"/>
+<text x="14" y="211" class="bf-small bf-muted bf-num" style="text-anchor:start">2024</text>
+<text x="86" y="211" class="bf-label" style="text-anchor:start">The AI Scientist</text>
+<circle cx="476" cy="206" r="8" class="bf-ball-empty"/><path d="M476,198 A8,8 0 0 0 476,214 Z" class="bf-ball-half"/>
+<circle cx="580" cy="206" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="206" r="8" class="bf-ball-empty"/><path d="M684,198 A8,8 0 0 0 684,214 Z" class="bf-ball-half"/>
+</g>
+<g class="bf-row"><title>The AI Scientist-v2: Humans give a broad topic and pick ideas and the final paper; AI writes ideas, code and paper; an LLM reviewer evaluates.</title>
+<rect x="10" y="223" width="740" height="30" class="bf-hit"/>
+<text x="14" y="241" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="241" class="bf-label" style="text-anchor:start">The AI Scientist-v2</text>
+<circle cx="476" cy="236" r="8" class="bf-ball-empty"/><path d="M476,228 A8,8 0 0 0 476,244 Z" class="bf-ball-half"/>
+<circle cx="580" cy="236" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="236" r="8" class="bf-ball-empty"/><path d="M684,228 A8,8 0 0 0 684,244 Z" class="bf-ball-half"/>
+</g>
+<g class="bf-row"><title>AlphaEvolve: User supplies an evaluate function and a complete (possibly rudimentary) initial program.</title>
+<rect x="10" y="253" width="740" height="30" class="bf-hit"/>
+<text x="14" y="271" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="271" class="bf-label" style="text-anchor:start">AlphaEvolve</text>
+<circle cx="476" cy="266" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="266" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="266" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>Darwin Gödel Machine: The agent rewrites its own code; humans fix the objective (coding benchmarks) and the compute budget.</title>
+<rect x="10" y="283" width="740" height="30" class="bf-hit"/>
+<text x="14" y="301" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="301" class="bf-label" style="text-anchor:start">Darwin Gödel Machine</text>
+<circle cx="476" cy="296" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="296" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="296" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>ShinkaEvolve: Human supplies an initial program with evolve markers and an evaluate script returning a score.</title>
+<rect x="10" y="313" width="740" height="30" class="bf-hit"/>
+<text x="14" y="331" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="331" class="bf-label" style="text-anchor:start">ShinkaEvolve</text>
+<circle cx="476" cy="326" r="8" class="bf-ball-empty"/>
+<circle cx="580" cy="326" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="326" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>DeepScientist: Agent proposes and tests thousands of ideas on frontier tasks chosen by humans, against human benchmarks.</title>
+<rect x="10" y="343" width="740" height="30" class="bf-hit"/>
+<text x="14" y="361" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="361" class="bf-label" style="text-anchor:start">DeepScientist</text>
+<circle cx="476" cy="356" r="8" class="bf-ball-empty"/><path d="M476,348 A8,8 0 0 0 476,364 Z" class="bf-ball-half"/>
+<circle cx="580" cy="356" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="356" r="8" class="bf-ball-empty"/>
+</g>
+<g class="bf-row"><title>AlphaResearch: AI proposes ideas screened by a learned reviewer; problems are human-defined.</title>
+<rect x="10" y="373" width="740" height="30" class="bf-hit"/>
+<text x="14" y="391" class="bf-small bf-muted bf-num" style="text-anchor:start">2025</text>
+<text x="86" y="391" class="bf-label" style="text-anchor:start">AlphaResearch</text>
+<circle cx="476" cy="386" r="8" class="bf-ball-empty"/><path d="M476,378 A8,8 0 0 0 476,394 Z" class="bf-ball-half"/>
+<circle cx="580" cy="386" r="8" class="bf-ball-full"/>
+<circle cx="684" cy="386" r="8" class="bf-ball-empty"/><path d="M684,378 A8,8 0 0 0 684,394 Z" class="bf-ball-half"/>
+</g>
+<g class="bf-row"><title>Evolution of Benchmark: The LLM evolves the benchmark programs themselves; humans set the objectives.</title>
+<rect x="10" y="403" width="740" height="30" class="bf-hit"/>
+<text x="14" y="421" class="bf-small bf-muted bf-num" style="text-anchor:start">2026</text>
+<text x="86" y="421" class="bf-label" style="text-anchor:start">Evolution of Benchmark</text>
+<circle cx="476" cy="416" r="8" class="bf-ball-empty"/>
+<line x1="575" y1="416" x2="585" y2="416" class="bf-faint-line"/>
+<circle cx="684" cy="416" r="8" class="bf-ball-empty"/><path d="M684,408 A8,8 0 0 0 684,424 Z" class="bf-ball-half"/>
+</g>
+<line x1="10" y1="446" x2="750" y2="446" class="bf-rule"/>
+<circle cx="21" cy="468" r="7" class="bf-ball-full"/>
+<text x="35" y="472" class="bf-small bf-muted" style="text-anchor:start">AI</text>
+<circle cx="83.0" cy="468" r="7" class="bf-ball-empty"/><path d="M83.0,461 A7,7 0 0 0 83.0,475 Z" class="bf-ball-half"/>
+<text x="97" y="472" class="bf-small bf-muted" style="text-anchor:start">Shared</text>
+<circle cx="175.0" cy="468" r="7" class="bf-ball-empty"/>
+<text x="189" y="472" class="bf-small bf-muted" style="text-anchor:start">Human</text>
+<text x="746" y="472" class="bf-note" style="text-anchor:end">Based on what each paper requires humans to supply</text>
+</svg>

@@ -1,0 +1,125 @@
+<svg class="bf " viewBox="0 0 760 376" role="img" aria-labelledby="f3t-en f3d-en" xmlns="http://www.w3.org/2000/svg">
+<title id="f3t-en">Stage reached in each domain, and production use</title><desc id="f3d-en">Highest stage (as in Figure 1) reached by AI in eight domains, and where AI-designed algorithms have been deployed or shipped. Most domains are at Stage 3; every applied domain has some public evidence of deployment, at Stage 2 for MIP solver components and at Stage 3 elsewhere.</desc>
+<text x="318" y="30" class="bf-colhead" style="text-anchor:middle">1</text>
+<text x="368" y="30" class="bf-colhead" style="text-anchor:middle">2</text>
+<text x="418" y="30" class="bf-colhead" style="text-anchor:middle">3</text>
+<text x="468" y="30" class="bf-colhead" style="text-anchor:middle">4</text>
+<text x="518" y="30" class="bf-colhead" style="text-anchor:middle">5</text>
+<text x="296" y="30" class="bf-colhead" style="text-anchor:end">Stage</text>
+<text x="554" y="30" class="bf-colhead" style="text-anchor:start">Deployed or shipped</text>
+<line x1="10" y1="40" x2="750" y2="40" class="bf-rule"/>
+<g class="bf-row"><title>MIP solver components: Stage 2; early Stage-3 signals; deployed or shipped at Stage 2 (CPLEX, FICO Xpress). Humans still provide: solver, target component, instances</title>
+<rect x="10" y="49" width="740" height="34" class="bf-hit"/>
+<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP solver components</text>
+<circle cx="318" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="66" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="66" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="66" x2="368" y2="66" class="bf-stem"/>
+<line x1="368" y1="66" x2="418" y2="66" class="bf-stem-early"/>
+<circle cx="418" cy="66" r="5" class="bf-ball-empty"/>
+<circle cx="368" cy="66" r="5" class="bf-ball-full"/>
+<circle cx="368" cy="66" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="71" class="bf-label" style="text-anchor:start">CPLEX, FICO Xpress</text>
+</g>
+<g class="bf-row"><title>Optimization modeling: Stage 3; early Stage-4 signals; deployed or shipped at Stage 3 (Microsoft OptiGuide, OptiMind). Humans still provide: problem in words, reference answers</title>
+<rect x="10" y="83" width="740" height="34" class="bf-hit"/>
+<text x="14" y="105" class="bf-label" style="text-anchor:start">Optimization modeling</text>
+<circle cx="318" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="100" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="100" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="100" x2="418" y2="100" class="bf-stem"/>
+<line x1="418" y1="100" x2="468" y2="100" class="bf-stem-early"/>
+<circle cx="468" cy="100" r="5" class="bf-ball-empty"/>
+<circle cx="418" cy="100" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="100" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="105" class="bf-label" style="text-anchor:start">Microsoft OptiGuide, OptiMind</text>
+</g>
+<g class="bf-row"><title>CO heuristics: Stage 3; deployed or shipped at Stage 3 (Google Borg scheduling). Humans still provide: evaluator, instances, code template</title>
+<rect x="10" y="117" width="740" height="34" class="bf-hit"/>
+<text x="14" y="139" class="bf-label" style="text-anchor:start">CO heuristics</text>
+<circle cx="318" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="134" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="134" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="134" x2="418" y2="134" class="bf-stem"/>
+<circle cx="418" cy="134" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="134" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="139" class="bf-label" style="text-anchor:start">Google Borg scheduling</text>
+</g>
+<g class="bf-row"><title>Industrial operations: Stage 3; deployed or shipped at Stage 3 (FM Logistic warehouses). Humans still provide: seed algorithm, objective, data</title>
+<rect x="10" y="151" width="740" height="34" class="bf-hit"/>
+<text x="14" y="173" class="bf-label" style="text-anchor:start">Industrial operations</text>
+<circle cx="318" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="168" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="168" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="168" x2="418" y2="168" class="bf-stem"/>
+<circle cx="418" cy="168" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="168" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="173" class="bf-label" style="text-anchor:start">FM Logistic warehouses</text>
+</g>
+<g class="bf-row"><title>Continuous optimization: Stage 3; deployed or shipped at Stage 3 (Lion optimizer, Google Ads). Humans still provide: benchmark suite and budget</title>
+<rect x="10" y="185" width="740" height="34" class="bf-hit"/>
+<text x="14" y="207" class="bf-label" style="text-anchor:start">Continuous optimization</text>
+<circle cx="318" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="202" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="202" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="202" x2="418" y2="202" class="bf-stem"/>
+<circle cx="418" cy="202" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="202" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="207" class="bf-label" style="text-anchor:start">Lion optimizer, Google Ads</text>
+</g>
+<g class="bf-row"><title>ML training &amp; kernels: Stage 3; deployed or shipped at Stage 3 (Gemini training, Meta). Humans still provide: kernel, correctness check, timing</title>
+<rect x="10" y="219" width="740" height="34" class="bf-hit"/>
+<text x="14" y="241" class="bf-label" style="text-anchor:start">ML training &amp; kernels</text>
+<circle cx="318" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="236" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="236" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="236" x2="418" y2="236" class="bf-stem"/>
+<circle cx="418" cy="236" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="236" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="241" class="bf-label" style="text-anchor:start">Gemini training, Meta</text>
+</g>
+<g class="bf-row"><title>Systems &amp; low-level code: Stage 3; deployed or shipped at Stage 3 (TPU circuits, libc++ sort). Humans still provide: correctness checks, simulator</title>
+<rect x="10" y="253" width="740" height="34" class="bf-hit"/>
+<text x="14" y="275" class="bf-label" style="text-anchor:start">Systems &amp; low-level code</text>
+<circle cx="318" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="270" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="270" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="270" x2="418" y2="270" class="bf-stem"/>
+<circle cx="418" cy="270" r="5" class="bf-ball-full"/>
+<circle cx="418" cy="270" r="9.5" class="bf-prod-ring"/>
+<text x="554" y="275" class="bf-label" style="text-anchor:start">TPU circuits, libc++ sort</text>
+</g>
+<g class="bf-row"><title>Mathematical discovery: Stage 3. Humans still provide: a verifier for each problem</title>
+<rect x="10" y="287" width="740" height="34" class="bf-hit"/>
+<text x="14" y="309" class="bf-label" style="text-anchor:start">Mathematical discovery</text>
+<circle cx="318" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="368" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="418" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="468" cy="304" r="2.2" class="bf-tick-dot"/>
+<circle cx="518" cy="304" r="2.2" class="bf-tick-dot"/>
+<line x1="318" y1="304" x2="418" y2="304" class="bf-stem"/>
+<circle cx="418" cy="304" r="5" class="bf-ball-full"/>
+<text x="554" y="309" class="bf-label bf-muted" style="text-anchor:start">n/a</text>
+</g>
+<line x1="10" y1="328" x2="750" y2="328" class="bf-rule"/>
+<line x1="16" y1="346" x2="34" y2="346" class="bf-stem"/><circle cx="34" cy="346" r="5" class="bf-ball-full"/>
+<text x="46" y="350" class="bf-small bf-muted" style="text-anchor:start">Demonstrated</text>
+<line x1="160" y1="346" x2="178" y2="346" class="bf-stem-early"/><circle cx="178" cy="346" r="5" class="bf-ball-empty"/>
+<text x="190" y="350" class="bf-small bf-muted" style="text-anchor:start">Early signals only</text>
+<circle cx="346" cy="346" r="5" class="bf-ball-full"/><circle cx="346" cy="346" r="9.5" class="bf-prod-ring"/>
+<text x="362" y="350" class="bf-small bf-muted" style="text-anchor:start">Deployed or shipped (public evidence)</text>
+</svg>
