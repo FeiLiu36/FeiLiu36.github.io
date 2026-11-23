@@ -4,7 +4,7 @@ date: 2026-11-23
 lang: en
 ref: ai-algorithm-design
 author: Fei Liu
-reading_time: 15
+reading_time: 10
 summary: "Five stages of how AI is reshaping algorithm design, why I think we are in the third, and what that means for how we do research."
 ---
 
@@ -77,7 +77,7 @@ Longer, more autonomous runs also fail in new ways. An [independent evaluation](
 
 **The human role moves to asking the key questions and defining concrete evaluation.** In every Stage-3 system, the decisive human input is the evaluator, meaning which instances, which metric and which constraints count. An agent will optimize exactly what you measure, and it will also exploit whatever your measurement gets wrong. Designing a good evaluation therefore deserves as much care as designing the algorithm itself.
 
-**Do not spend effort on small algorithm tweaks that gain 1% on a benchmark. Solve real needs from industry and AI applications.** Small, local improvements on fixed benchmarks are exactly what Stage-2 and Stage-3 systems now produce cheaply and in volume. What they cannot do on their own is find the problem that matters and define what success means there. Real problems also bring what benchmarks leave out, such as messy data, hard constraints and success criteria tied to actual use. That is where human judgment still matters most.
+**Work on real needs from industry and AI applications rather than on small benchmark gains.** Small, local improvements on fixed benchmarks are exactly what Stage-2 and Stage-3 systems now produce cheaply and in volume. What they cannot do on their own is find the problem that matters and define what success means there. Real problems also bring what benchmarks leave out, such as messy data, hard constraints and success criteria tied to actual use. That is where human judgment still matters most.
 
 **Build understanding, not just code.** An algorithm found by search is only half a result. The other half is knowing why it works and when it fails. Mathematics is running into this right now. In 2026, AI systems produced claimed proofs of finite-time blow-up for the Navier–Stokes equations ([Quanta](https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/)) and of the Riemann hypothesis ([Scientific American](https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/)). Both were checked by machine in Lean, but mathematicians are still working to understand them. AI can now produce results faster than people can understand them.
 
@@ -111,7 +111,7 @@ ML training &amp; kernels: <a href="https://deepmind.google/blog/alphaevolve-a-g
 Systems: <a href="https://deepmind.google/discover/blog/alphadev-discovers-faster-sorting-algorithms/">AlphaDev in libc++</a>, <a href="https://deepmind.google/blog/alphaevolve-impact/">AlphaEvolve (TPU circuits)</a> ·
 Mathematics: <a href="https://doi.org/10.1038/s41586-023-06924-6">FunSearch</a>, <a href="https://arxiv.org/abs/2511.02864">Georgiev et al.</a></p>
 <p><b>Figure 4.</b>
-(a) EoH: author's runs · <a href="https://sakana.ai/ahc058/">ALE-Agent at AHC058</a> · <a href="https://arxiv.org/abs/2504.08066">The AI Scientist-v2</a> · <a href="https://arxiv.org/abs/2505.22954">Darwin Gödel Machine</a>.
+(a) <a href="https://proceedings.mlr.press/v235/liu24bs.html">EoH</a> · <a href="https://sakana.ai/ahc058/">ALE-Agent at AHC058</a> · <a href="https://arxiv.org/abs/2504.08066">The AI Scientist-v2</a> · <a href="https://arxiv.org/abs/2505.22954">Darwin Gödel Machine</a>.
 (b) <a href="https://arxiv.org/abs/2502.14297">Beel et al. on the AI Scientist</a> · <a href="https://arxiv.org/abs/2511.02824">Kosmos</a> · <a href="https://metr.org/blog/2025-06-05-recent-reward-hacking/">METR on o3</a> · <a href="https://arxiv.org/abs/2510.20270">ImpossibleBench</a>.
 FunSearch vs. AlphaEvolve evaluation cost: Table 1 of the <a href="https://arxiv.org/abs/2506.13131">AlphaEvolve paper</a>.</p>
 </details>
