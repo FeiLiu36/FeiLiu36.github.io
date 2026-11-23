@@ -8,9 +8,9 @@
 <text x="296" y="30" class="bf-colhead" style="text-anchor:end">Stage</text>
 <text x="554" y="30" class="bf-colhead" style="text-anchor:start">Deployed or shipped</text>
 <line x1="10" y1="40" x2="750" y2="40" class="bf-rule"/>
-<g class="bf-row"><title>MIP solver components: Stage 2; early Stage-3 signals; deployed or shipped at Stage 2 (CPLEX, FICO Xpress). Humans still provide: solver, target component, instances</title>
+<g class="bf-row"><title>MIP solvers: Stage 2; early Stage-3 signals; deployed or shipped at Stage 2 (CPLEX, FICO Xpress). Humans still provide: solver, target component, instances</title>
 <rect x="10" y="49" width="740" height="34" class="bf-hit"/>
-<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP solver components</text>
+<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP solvers</text>
 <circle cx="318" cy="66" r="2.2" class="bf-tick-dot"/>
 <circle cx="368" cy="66" r="2.2" class="bf-tick-dot"/>
 <circle cx="418" cy="66" r="2.2" class="bf-tick-dot"/>

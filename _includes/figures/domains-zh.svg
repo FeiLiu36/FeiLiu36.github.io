@@ -8,9 +8,9 @@
 <text x="296" y="30" class="bf-colhead" style="text-anchor:end">阶段</text>
 <text x="554" y="30" class="bf-colhead" style="text-anchor:start">已部署或已进入软件</text>
 <line x1="10" y1="40" x2="750" y2="40" class="bf-rule"/>
-<g class="bf-row"><title>MIP 求解器部件: 阶段 2，阶段 3 早期信号；已部署或进入软件：阶段 2（CPLEX、FICO Xpress）. 人仍需提供：求解器、目标部件、实例</title>
+<g class="bf-row"><title>MIP 求解器: 阶段 2，阶段 3 早期信号；已部署或进入软件：阶段 2（CPLEX、FICO Xpress）. 人仍需提供：求解器、目标部件、实例</title>
 <rect x="10" y="49" width="740" height="34" class="bf-hit"/>
-<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP 求解器部件</text>
+<text x="14" y="71" class="bf-label" style="text-anchor:start">MIP 求解器</text>
 <circle cx="318" cy="66" r="2.2" class="bf-tick-dot"/>
 <circle cx="368" cy="66" r="2.2" class="bf-tick-dot"/>
 <circle cx="418" cy="66" r="2.2" class="bf-tick-dot"/>

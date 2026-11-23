@@ -82,7 +82,7 @@ LIFECYCLE = [
 DOMAINS = [
     # en, zh, frontier stage, early-signal stage, deployed/shipped stage ("na" = not applicable),
     # en humans-provide, zh, en production note, zh production note
-    ("MIP solver components", "MIP 求解器部件", 2, 3, 2,
+    ("MIP solvers", "MIP 求解器", 2, 3, 2,
      "solver, target component, instances", "求解器、目标部件、实例",
      "CPLEX, FICO Xpress", "CPLEX、FICO Xpress"),
     ("Optimization modeling", "优化建模", 3, 4, 3,
