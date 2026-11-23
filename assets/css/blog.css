@@ -426,3 +426,30 @@ svg.bf .bf-hu-text { fill: var(--bf-accent); }
   .post-title, .blog-header h1 { font-size: 2rem; }
   .post-dek { font-size: 1.08rem; }
 }
+
+/* Paper tone for blog pages only (homepage stays white) */
+body.blog-page {
+  --bg: #faf8f3;
+  --surface: #fffefb;
+  --nav-bg: rgba(250, 248, 243, 0.94);
+  --bf-band: #f1ece1;
+  --bf-hair: #e9e5dc;
+}
+:root[data-theme="dark"] body.blog-page {
+  --bg: #141311;
+  --surface: #1a1916;
+  --nav-bg: rgba(20, 19, 17, 0.94);
+  --bf-band: #1e1c18;
+  --bf-hair: #2a2824;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body.blog-page {
+    --bg: #141311;
+    --surface: #1a1916;
+    --nav-bg: rgba(20, 19, 17, 0.94);
+    --bf-band: #1e1c18;
+    --bf-hair: #2a2824;
+  }
+}
+body.blog-page { background: var(--bg); --bf-surface: var(--bg); }
+body.blog-page footer { background: var(--bg); }
